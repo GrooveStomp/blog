@@ -22,7 +22,7 @@ title: About
 - 7 years of deliberate C++
 - Bachelor's Degree in Computer Science
 
-## Personal Summary
+## More
 I like programming, videogames, the great outdoors and I love my family.
 
 In terms of software, I am a huge language geek.  Lisps, stack-based languages,
