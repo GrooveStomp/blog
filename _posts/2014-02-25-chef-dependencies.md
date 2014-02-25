@@ -5,7 +5,7 @@ title: Chef Dependency Management
 
 At work we've been using Chef to manage systems automation.  It's been a bit of a rough process with only one
 devops team member.  Around five months ago I started pitching in.  This served two purposes: test our existing
-process and help out with more immediate tasks.  It became quite obvious that our use of Chef required a lot
+process and help out with more pressing automation tasks.  It became quite obvious that our use of Chef required a lot
 more discipline and structure.  We're not fully there yet, but we're definitely making improvements.
 
 The purpose of this post is to discuss dependency resolution between cookbooks as we encounter it while
@@ -46,13 +46,22 @@ to roll out into the next release.
 
 So how do you manually investigate dependency conflicts with Chef?
 
-1. Attempt a Chef run and get the full cookbook listing.
+- Attempt a Chef run and get the full cookbook listing.
 
-2. Check your local cookbook metadata.rb and write down the versions against matching cookbooks from the above list.
-3. For all dependencies in metadata.rb, look at their metadata.rb and write down all explicit versions, matching against the above list.
+- Check your local cookbook metadata.rb and write down the versions against matching cookbooks from the above list.
+- For all dependencies in metadata.rb, look at their metadata.rb and write down all explicit versions, matching against the above list.
 
 At this point see if there are any conflicts.
 
-4. Look at your environment's `cookbook_versions` attribute. `knife environment show ENV -a cookbook_versions`.
+- Look at your environment's `cookbook_versions` attribute. `knife environment show ENV -a cookbook_versions`.
 
 See if there are any conflicting versions here based on what you've noted down in previous steps.
+
+That might not show versions for all of your cookbooks.  In that case Chef will try to use whatever is latest.
+
+- For every `latest` version cookbook, look at it's `metadata.rb` and note dependencies - matching with the above list.
+
+Even still, you might not find any issues.  Unfortunately, this is the position I find myself in lately.
+I largely suspect our problems stem from our somewhat undisciplined use of Chef.
+We're going to look at pinning all versions in our environments.  Currently they get pinned in cookbooks and environments.
+Having multiple locations to search to resolve dependencies certainly makes things more complicated than they should be.
