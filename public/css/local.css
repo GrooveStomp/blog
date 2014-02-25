@@ -1,0 +1,18 @@
+.sidebar-about h1 {
+  font-family: 'Istok Web', sans-serif;
+}
+
+.horizontally-centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1.sidebar-title {
+  font-size: 2em;
+}
+
+ul.sidebar-nav {
+  margin-top: 80px;
+}

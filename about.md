@@ -3,28 +3,24 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+<img src="{{ site.profile.icon.aaron }}" alt="Profile" class="horizontally-centered" />
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+<div class="message horizontally-centered">
+  Hi, I'm Aaron Oman.  My online handle is GrooveStomp.
+</div>
 
-There are currently two themes built on Poole:
+I like programming, videogames, the great outdoors and I love my family.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+In terms of software, I am a huge language geek.  Lisps, stack-based languages,
+functional languages; static typing, dynamic typing, strong typing, weak typing;
+concurrency, parallelism; parsing, datastructures - any one of these topics
+is a rich field of research and I like it all.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Beyond more academic pursuits like language development, I am significantly interested
+in privacy and security.  There are huge gains to be made in terms of ease of use
+for broader adoption of privacy and security standards like PGP encryption of email,
+OTR messaging, full disk encryption and encrypted calls.
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.org), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Professionally I try to exemplify those principles that I value most.  This includes
+being courteous and honest, clearly communicating with all peers, and acting fairly and directly
+regardless of title or experience.
