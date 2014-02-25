@@ -9,6 +9,12 @@ title: About
   Hi, I'm Aaron Oman.  My online handle is GrooveStomp.
 </div>
 
+## Professional Summary
+- 7 years *nix use
+- 9 years developing software
+- Ruby, Perl, Actionscript, C/C++/Assembler (descending years of experience)
+
+## Personal Summary
 I like programming, videogames, the great outdoors and I love my family.
 
 In terms of software, I am a huge language geek.  Lisps, stack-based languages,
