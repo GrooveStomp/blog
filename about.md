@@ -12,7 +12,15 @@ title: About
 ## Professional Summary
 - 7 years *nix use
 - 9 years developing software
-- Ruby, Perl, Actionscript, C/C++/Assembler (descending years of experience)
+- Ruby (3yrs), Perl (3yrs), Actionscript (2yrs), C/C++/Assembler (1yr)
+- Unbounce, Gossamer Threads, Electronic Arts (Reverse Chronological)
+
+## Personal Summary
+(Combined Professional & Non-Professional)
+
+- 14 years programming
+- 7 years of deliberate C++
+- Bachelor's in Computer Science
 
 ## Personal Summary
 I like programming, videogames, the great outdoors and I love my family.
