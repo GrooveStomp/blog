@@ -38,3 +38,13 @@ OTR messaging, full disk encryption and encrypted calls.
 Professionally I try to exemplify those principles that I value most.  This includes
 being courteous and honest, clearly communicating with all peers, and acting fairly and directly
 regardless of title or experience.
+
+## PGP Public Key
+```
+Key ID:      CACEA58E
+Fingerprint: 0610 9DBF 721E 88AA DA7D
+             E981 4E63 DBF7 CACE A58E
+Type:        RSA
+Strength:    4096
+Created:     2014-02-25
+```
