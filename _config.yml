@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:      'pygements'
 
 # Permalinks
 permalink:        pretty
@@ -12,8 +12,8 @@ description:      'Online Musings'
 url:              http://hyde.getpoole.com
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Aaron Oman'
+  url:            https://twitter.com/GrooveStomp
 
 paginate:         5
 
@@ -24,11 +24,9 @@ github:
   repo:           https://github.com/poole/hyde
 
 profile:
-  github:         https://github.com/GrooveStomp
   twitter:        https://twitter.com/GrooveStomp
-  stackoverflow:  https://stackoverflow.com/users/321897/groovestomp
+  github:         https://github.com/GrooveStomp
   bitbucket:      https://bitbucket.org/GrooveStomp
-  flickr:         https://secure.flickr.com/photos/groovestomp/
   icon:
     groovestomp:  /public/groovestomp_icon.jpg
     aaron:        /public/profile.jpg
