@@ -10,6 +10,11 @@ html {
   font-family: 'Istok Web', sans-serif;
 }
 
+.sidebar-nav-item strong {
+  color: #5c5c5c;
+  font-size: 1.5em;
+}
+
 .horizontally-centered {
   display: block;
   margin-left: auto;

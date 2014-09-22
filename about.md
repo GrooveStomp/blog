@@ -3,9 +3,9 @@ layout: page
 title: About
 ---
 
-<img src="{{ site.profile.icon.aaron }}" alt="Profile" class="horizontally-centered" />
+<img src="{{ site.profile.icon.aaron }}" alt="Profile" />
 
-<div class="message horizontally-centered">
+<div class="message">
   Hi, I'm Aaron Oman.  My online handle is GrooveStomp.
 </div>
 
@@ -13,7 +13,7 @@ title: About
 - 7.5 years using *nix
 - 9.5 years developing software
 - Ruby (3.5yrs), Perl (3yrs), Actionscript (2yrs), C/C++/Assembler (1yr)
-- Unbounce (3yrs), Gossamer Threads (2.5yrs), Electronic Arts (3.5yrs)
+- Unbounce (3.5yrs), Gossamer Threads (2.5yrs), Electronic Arts (3.5yrs)
 
 ## Personal Summary
 (Combined Professional & Non-Professional)
