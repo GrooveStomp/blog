@@ -10,15 +10,15 @@ title: About
 </div>
 
 ## Professional Summary
-- 7 years using *nix
-- 9 years developing software
-- Ruby (3yrs), Perl (3yrs), Actionscript (2yrs), C/C++/Assembler (1yr)
+- 7.5 years using *nix
+- 9.5 years developing software
+- Ruby (3.5yrs), Perl (3yrs), Actionscript (2yrs), C/C++/Assembler (1yr)
 - Unbounce (3yrs), Gossamer Threads (2.5yrs), Electronic Arts (3.5yrs)
 
 ## Personal Summary
 (Combined Professional & Non-Professional)
 
-- 14 years programming
+- 14.5 years programming
 - 7 years of deliberate C++
 - Bachelor's Degree in Computer Science
 

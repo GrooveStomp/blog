@@ -7,13 +7,14 @@ permalink:        pretty
 
 # Setup
 title:            GrooveStomp
-tagline:          'Online Musings'
-description:      'Online Musings'
-url:              http://hyde.getpoole.com
+name:             'GrooveStomp: Online Ruminations'
+tagline:          'Online Ruminations'
+description:      'Thoughts on matters mostly related to software development'
+url:              http://www.groovestomp.com
 
 author:
   name:           'Aaron Oman'
-  url:            https://twitter.com/GrooveStomp
+  url:            http://www.groovestomp.com/about
 
 paginate:         5
 
