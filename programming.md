@@ -33,12 +33,8 @@ The plan is to write tutorials covering each of the topics listed here.
  - Data
  - Typeclasses
   
-- Applying Concepts to C++
- - Typeclasses
- - Data
- - Reflection and Identification
-  
-- Updating Existing Code
+- Applications in Ruby
+ - Updating Existing Code
 
 # Code Design and Maintenance
 - Refactoring
