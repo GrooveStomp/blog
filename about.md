@@ -10,20 +10,20 @@ title: About
 </div>
 
 ## Professional Summary
-- 7.5 years using *nix
-- 9.5 years developing software
-- Ruby (3.5yrs), Perl (3yrs), Actionscript (2yrs), C/C++/Assembler (1yr)
+- Using GNU/Linux professionally since 2007
+- Professionally writing software since 2005
+- Professionally writing Ruby since 2011
 - Unbounce (3.5yrs), Gossamer Threads (2.5yrs), Electronic Arts (3.5yrs)
 
 ## Personal Summary
 (Combined Professional & Non-Professional)
 
-- 14.5 years programming
-- 7 years of deliberate C++
+- Writing C/C++ since 2000
+- Programming since 1998
 - Bachelor's Degree in Computer Science
 
 ## More
-I like programming, videogames, the great outdoors and I love my family.
+I like programming, boardgames, videogames, the great outdoors and I love my family.
 
 In terms of software, I am a huge language geek.  Lisps, stack-based languages,
 functional languages; static typing, dynamic typing, strong typing, weak typing;
