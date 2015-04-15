@@ -24,6 +24,9 @@ version:          2.0.0
 github:
   repo:           https://github.com/poole/hyde
 
+boardgames:       http://boardgames.groovestomp.com
+photos:           https://groovestomp.smugmug.com
+
 profile:
   twitter:        https://twitter.com/GrooveStomp
   github:         https://github.com/GrooveStomp
