@@ -10,14 +10,13 @@ title: About
 </div>
 
 ## Professional Summary
-- Using GNU/Linux professionally since 2007
-- Professionally writing software since 2005
-- Professionally writing Ruby since 2011
+- Using GNU/Linux since 2007
+- Writing software since 2005
+- Writing Ruby since 2011
 - Unbounce (3.5yrs), Gossamer Threads (2.5yrs), Electronic Arts (3.5yrs)
+- Currently employed at Mogo as a Senior Developer
 
 ## Personal Summary
-(Combined Professional & Non-Professional)
-
 - Writing C/C++ since 2000
 - Programming since 1998
 - Bachelor's Degree in Computer Science
