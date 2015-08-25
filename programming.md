@@ -2,6 +2,20 @@
 layout: page
 title: Programming
 ---
+
+Reverse-chronological list of programming posts.
+
+<ul>
+{% for post in site.tags.programming %}
+    <li><a href="{{ post.url }}">{{ post.title }} - {{ post.date | date: "%Y-%m-%d" }}</a></li>
+{% endfor %}
+</ul>
+
+<hr/>
+
+What follows is a really rough, high-level outline of topics I want to address.
+I may never actually get around to doing this, but I'm keeping it here for now as a reminder.
+
 Various programming concepts.
 The plan is to write tutorials covering each of the topics listed here.
 
@@ -32,7 +46,7 @@ The plan is to write tutorials covering each of the topics listed here.
  - Functions
  - Data
  - Typeclasses
-  
+
 - Applications in Ruby
  - Updating Existing Code
 

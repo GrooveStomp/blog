@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ruby Loadpath Confusion
+tags: [programming, ruby, filesystem, filesystems]
 ---
 
 The main application at work was developed in Ruby on Rails, with supporting

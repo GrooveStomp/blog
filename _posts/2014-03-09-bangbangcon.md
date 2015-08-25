@@ -1,20 +1,21 @@
 ---
 layout: post
-title: Proposing a Talk for !!Con 
+title: Proposing a Talk for !!Con
+tags: []
 ---
 
 I am writing a proposal for a 10 minute "lightning talk" at [!!Con](http://bangbangcon.com/).
 I feel like this is a relatively _normal_ thing that **shouldn't** warrant any special writing.
 But there are a couple of things that make it a very standout _thing_ for me.
 
-1. *It is in New York.*  
+1. *It is in New York.*
 Dee is super excited about the possibility of visiting New York.  I've never been before.  What an excellent excuse to go visit!
 
-2. *I have never publicly spoken.*  
+2. *I have never publicly spoken.*
 I get nervous in groups larger than around 10 people, and I suspect !!Con will be far larger than that.  Still, it's something
 I've been interested in doing for years!
 
-3. *I get to formalize my thinking on any topic of my interest.*  
+3. *I get to formalize my thinking on any topic of my interest.*
 I'm in the process of doing this now - jotting down ideas, trying to tease out the common threads and ultimately just
 writing a focused, interesting talk.  I'll try to use funny pictures, too.
 

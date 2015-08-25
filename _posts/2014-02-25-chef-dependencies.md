@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Chef Dependency Management
+tags: [programming]
 ---
 
 At work we've been using Chef to manage systems automation.  It's been a bit of a rough process with only one
@@ -11,7 +12,7 @@ more discipline and structure.  We're not fully there yet, but we're definitely 
 The purpose of this post is to discuss dependency resolution between cookbooks as we encounter it while
 using Chef server.
 
-```                                                                          
+```
 
     **********************
     *                    *
@@ -29,7 +30,7 @@ using Chef server.
 
 ```
 
-On your local Dev machine you upload your cookbook to the Chef Server.  
+On your local Dev machine you upload your cookbook to the Chef Server.
 When you create a new node, the Chef runtime will try to resolve all cookbook dependencies for the Node so
 that the Chef run can execute.
 

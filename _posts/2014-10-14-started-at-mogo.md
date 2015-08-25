@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New Position at Mogo
+tags: [job]
 ---
 
 I am super excited to announce that I have started working at Mogo Financial.

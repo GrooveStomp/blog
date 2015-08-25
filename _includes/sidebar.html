@@ -8,7 +8,7 @@
     <ul class="sidebar-nav">
 
       <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
-        <a href="/">Home</a>
+        <a href="/">Latest</a>
       </li>
 
       {% comment %}
@@ -27,15 +27,18 @@
         {% endif %}
       {% endfor %}
 
-      <li class="sidebar-nav-item"><a href="{{ site.boardgames }}">Boardgames</a></li>
+      {% for node in site.tags.cute %}
+        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+      {% endfor %}
 
       <br/>
       <li class="sidebar-nav-item"><strong>Elsewhere</strong></li>
 
       <li class="sidebar-nav-item"><a href="{{ site.photos }}">Photos</a></li>
-      <!--<li class="sidebar-nav-item"><a href="{{ site.profile.twitter }}">Twitter</a></li>-->
+      <li class="sidebar-nav-item"><a href="{{ site.profile.twitter }}">Twitter</a></li>
       <li class="sidebar-nav-item"><a href="{{ site.profile.github }}">GitHub</a></li>
       <li class="sidebar-nav-item"><a href="{{ site.profile.bitbucket }}">BitBucket</a></li>
+      <li class="sidebar-nav-item"><a href="{{ site.boardgames }}">Boardgames</a></li>
 
       <br/>
       <li class="sidebar-nav-item"><strong>Follow</strong></li>

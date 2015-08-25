@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Resetting
+tags: [website, family]
 ---
 
 It seems like every blogger is susceptible to a refresh or reset at least once in their amateur life.

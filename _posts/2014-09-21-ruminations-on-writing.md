@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ruminations on Writing
+tags: [writing]
 ---
 
 As my blog has become neglected, I've had ample time to contemplate my approach to writing.
@@ -24,7 +25,7 @@ As my blog has become neglected, I've had ample time to contemplate my approach 
   making games at Electronic Arts, to the present day where I juggle my hobby with being a good husband and
   father.
 
-  
+
   Depending when you catch me, I might be fully absorbed into a game,  eagerly anticipating the next one that
   I can latch onto.  The last time this happened to me involved me picking up Castlevania: Symphony of the
    Night on my Playstation Vita.  I played that fairly diligently, much to my wife, Daniela's, dismay.
