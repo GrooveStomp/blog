@@ -1,0 +1,11 @@
+---
+layout: post
+title: Race for the Galaxy
+tags: [boardgames, rftg]
+---
+
+I know what the next game I am going to buy "for me" is going to be.  Apparently <a href="http://boardgamegeek.com/boardgame/132531/roll-galaxy">Roll for the Galaxy</a> is a more friendly iteration of the game.  At least <a href="https://youtu.be/-Z3H0H4WXeU?t=694">Tom Vasel and Sam Healey</a> think so.  I can't speak to that, though.  I've been playing the <a href="http://keldon.net/rftg/">Keldon AI</a> to learn the game, and I must say: I am hooked.  I started last night and couldn't stop thinking about it.  All day at work today it was on my mind.  My local game store has open boardgaming on Thursdays, so I hopped over and cracked the open box of <a href="http://boardgamegeek.com/boardgame/28143/race-galaxy">RFTG</a> - just setting up the play area and looking through all the components.  After the store closed, I came back home and booted up the Keldon AI again for a few more rounds.
+
+The theme really does it for me.  The artwork, at first, really turned me off.  Now I quite like it.  It's a little pulpy, but also very functional and the images really set the theme well.  I just want to buy it up now.  Actually, I want to buy a bunch of card sleeves for it.  Actually, I have a couple of Amazon orders to pick up first.  Let's just pop that stack and then I'll have my whatever stuff it is I ordered from Amazon, my new sleeves, and Race for the Galaxy complete with <a href="http://boardgamegeek.com/boardgameexpansion/34499/race-galaxy-gathering-storm">The Gathering Storm expansion</a> for solo play.  Ah yes, living in this hypothetical future world is wonderful.
+
+The only downside is that the game isn't straight forward to learn - at least not without owning the actual game itself, nor the rulebook.  I'm curious how easily Daniela will be able to pick it up.  Then, of course, there is the option of <a href="https://www.reddit.com/r/boardgames/comments/32tf73/have_you_ever_been_marooned_on_an_island_britain/cqej7t3">cooperative solo play</a>, where we jointly make decisions on how to proceed.  That might work well until she grasps the gameplay concepts fully enough that we can start playing competitively... and then, of course, I'll want to play with my brothers at holidays... *sigh*.  Better get started! :-)
