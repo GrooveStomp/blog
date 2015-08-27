@@ -29,3 +29,68 @@ h1.sidebar-title {
 ul.sidebar-nav {
   margin-top: 40px;
 }
+
+.sidebar {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255,255,255,.5);
+  background-color: #202020;
+  display: none;
+}
+.sidebar li a { font-size: 2em; }
+@media (min-width: 48rem) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+    display: inline;
+  }
+  .sidebar li a { font-size: 1em; }
+}
+
+.mobile-menu {
+    border: 0;
+    margin: 0;
+    padding: 20px;
+    background-color: #202020;
+    width: 100%;
+    display: block;
+    color: #FFF;
+    font-family: "Istok Web", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.25;
+}
+@media (min-width: 48rem) {
+    .mobile-menu {
+        display: none;
+    }
+}
+
+li{
+    list-style-type: none;
+}
+#menu{
+    position: absolute;
+    right: 0;
+    margin-right: 1em;
+    padding-right: 1em;
+    display: inline;
+}
+#menu a{
+    padding-left: 1.25em; /* 20px/16px */
+}
+#menu a:before {
+    content: "";
+    position: absolute;
+    top: 30%;
+    right:0px;
+    width:.75em; /* 12px/16px */
+    height:.125em; /* 2px/16px */
+    border-top: .375em double #000; /* 6px/16px */
+    border-bottom: .125em solid #000; /* 2px / 16px */
+    border-color: white;
+}
