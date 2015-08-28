@@ -70,7 +70,7 @@ ul.sidebar-nav {
     }
 }
 
-li{
+li#menu{
     list-style-type: none;
 }
 #menu{
