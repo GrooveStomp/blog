@@ -3,8 +3,6 @@ layout: page
 title: Programming
 ---
 
-[Programming RSS Feed]({{ site.url }}/programming_feed.xml)
-
 Reverse-chronological list of programming posts.
 
 <table>
