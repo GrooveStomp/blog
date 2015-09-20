@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Boardgames
+title: Boardgaming
 ---
+
+[Boardgaming RSS Feed]({{ site.url }}/boardgaming_feed.xml)
 
 Reverse-chronological list of boardgaming posts.
 
