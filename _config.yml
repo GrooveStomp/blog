@@ -34,3 +34,5 @@ profile:
   icon:
     groovestomp:  /public/groovestomp_icon.jpg
     aaron:        /public/profile.jpg
+
+exclude:          [vendor, env]
