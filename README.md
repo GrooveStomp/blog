@@ -1,15 +1,11 @@
 # Setup
 
     source env/shell
-    bundle_install
+    bundle-install
 
 # Run
 
     run
-
-# Build
-
-    build
 
 # Other
 ## Hyde
