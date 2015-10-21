@@ -4,8 +4,6 @@ title: Proteus Review
 tags: videogaming
 ---
 
-Proteus Review
-
 The best way I can think of to open this review is by quoting myself:
 “What a weird, boring, delightful, pleasant game. It is really difficult to feel [it] or describe it in one way.”
 
