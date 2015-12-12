@@ -21,6 +21,10 @@ Reverse-chronological list of programming posts.
 
 <hr/>
 
+<a href="practice">Daily Programming Practice</a>
+
+<hr />
+
 What follows is a really rough, high-level outline of topics I want to address.
 I may never actually get around to doing this, but I'm keeping it here for now as a reminder.
 
