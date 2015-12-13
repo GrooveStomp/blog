@@ -19,10 +19,6 @@ Reverse-chronological list of programming posts.
   {% endfor %}
 </table>
 
-<hr/>
-
-<a href="practice">Daily Programming Practice</a>
-
 <hr />
 
 What follows is a really rough, high-level outline of topics I want to address.
