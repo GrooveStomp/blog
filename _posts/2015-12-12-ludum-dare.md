@@ -5,7 +5,7 @@ tags: programming
 ---
 
 [Ludum Dare 34](http://ludumdare.com/compo/2015/12/09/welcome-to-ludum-dare-34/) kicks off this weekend.
-There are two themes that tied: ["two button controlers" and "growing."](https://twitter.com/ludumdare/status/675495354406592512)
+There are two themes that tied: ["two button controllers" and "growing."](https://twitter.com/ludumdare/status/675495354406592512)
 I was fully intending to participate, but I am having serious doubts about
 that decision now. I've managed to build the tiniest of skeletons of an
 application, but I have so much to do in order to get anywhere near a working
