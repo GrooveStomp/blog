@@ -10,11 +10,25 @@ title: About
 </div>
 
 ## Professional Summary
-- Using GNU/Linux since 2007
-- Writing software since 2005
-- Writing Ruby since 2011
-- Unbounce (3.5yrs), Gossamer Threads (2.5yrs), Electronic Arts (3.5yrs)
-- Currently employed at Mogo as a Senior Developer
+(In reverse chronological order)
+
+<table>
+  <tr>
+    <th>Company</th><th>Duration</th><th>Title</th><th>Responsibilities</th><th>Languages and Technologies</th>
+  </tr>
+  <tr>
+    <td>Mogo</td><td>October 2014 - Present</td><td>Senior Software Developer</td><td>Assist in managing project scope, develop common libraries, implement features. Interview potential hires.</td><td>Ruby, RabbitMQ, Docker</td>
+  </tr>
+  <tr>
+    <td>Unbounce</td><td>3.5 Years</td><td>API Lead</td><td>Design, implement and support HTTP API. Integrations with 3rd parties.</td><td>Ruby, Ruby on Rails, Javascript, Java</td>
+  </tr>
+  <tr>
+    <td>Gossamer Threads</td><td>2.5 Years</td><td>Programmer</td><td>In-house forum and website software customizations for clients.</td><td>Perl</td>
+  </tr>
+  <tr>
+    <td>Electronic Arts</td><td>3.5 Years</td><td>Software Engineer</td><td>3d pipeline maintenance, gameplay prototyping, audio programming, animation programming, front-end programming<td>C++, C#, ActionScript.</td>
+  </tr>
+</table>
 
 ## Personal Summary
 - Writing C/C++ since 2000
@@ -38,12 +52,18 @@ Professionally I try to exemplify those principles that I value most.  This incl
 being courteous and honest, clearly communicating with all peers, and acting fairly and directly
 regardless of title or experience.
 
+## Programming
+If you want to see what I've been up to, then I strongly urge you to see my [daily programming practice on BitBucket](https://bitbucket.org/GrooveStomp/practice/src).
+It's not quite every day, but I'm updating several times a week and exploring many concepts.<br/>
+For more in-depth work, see other projects listed there. Of specific note are my [software rasterizer](https://bitbucket.org/GrooveStomp/software-renderer/src) and my [C lexer](https://bitbucket.org/GrooveStomp/c-lexer/src).
+
 ## PGP Public Key
+My public key is available from [pgp.mit.edu](https://pgp.mit.edu)
+
 ```
-Key ID:      CACEA58E
-Fingerprint: 0610 9DBF 721E 88AA DA7D
-             E981 4E63 DBF7 CACE A58E
-Type:        RSA
-Strength:    4096
-Created:     2014-02-25
+↳ gpg --fingerprint 8ED3DC87
+pub   2048R/8ED3DC87 2016-01-14 [expires: 2017-01-13]
+      Key fingerprint = 850C 66AF CDDE A396 A862  A2A6 88C8 88E4 8ED3 DC87
+uid                  Aaron Oman (GrooveStomp) <aaronoman@protonmail.com>
+sub   2048R/600C9EE6 2016-01-14 [expires: 2017-01-13]
 ```
