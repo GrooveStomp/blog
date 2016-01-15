@@ -36,13 +36,13 @@ Without further ado, my unidirectional webring links!
   </li>
 
   <li>
-    <a href="http://gafferongames.com/">Gaffer on Games</a>
+    <a href="http://gafferongames.com">Gaffer on Games</a>
     <p>More excellent network programming articles and posts. Similarly to IT Hare, recommend by <a href="https://twitter.com/netcoyote/status/674299219461562368">Pat Wyatt as a followup to HandmadeCon</a>.
     </p>
   </li>
 
   <li>
-    <a href="https://www.lucasallan.com/">Lucas Amorim</a>
+    <a href="https://www.lucasamorim.ca">Lucas Amorim</a>
     <p>A good buddy of mine. We've worked together for over three years and share many interests. Strongly recommended!</p>
   </li>
 </ul>
