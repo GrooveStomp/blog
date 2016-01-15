@@ -17,22 +17,22 @@ title: About
     <th>Company</th><th>Duration</th><th>Title</th><th>Responsibilities</th><th>Languages and Technologies</th>
   </tr>
   <tr>
-    <td>Mogo</td><td>October 2014 - Present</td><td>Senior Software Developer</td><td>Assist in managing project scope, develop common libraries, implement features. Interview potential hires.</td><td>Ruby, RabbitMQ, Docker</td>
+    <td>Mogo</td><td>October 2014 - Present</td><td>Senior Software Developer</td><td>Assist in managing project scope, develop common libraries, implement features, interview potential hires.</td><td>Ruby, RabbitMQ, Docker, Redis, MySQL</td>
   </tr>
   <tr>
-    <td>Unbounce</td><td>3.5 Years</td><td>API Lead</td><td>Design, implement and support HTTP API. Integrations with 3rd parties.</td><td>Ruby, Ruby on Rails, Javascript, Java</td>
+    <td>Unbounce</td><td>3.5 Years</td><td>API Lead</td><td>Design, implement and support HTTP API. Integrations with 3rd parties.</td><td>Ruby, Ruby on Rails, Javascript, Java, MySQL</td>
   </tr>
   <tr>
-    <td>Gossamer Threads</td><td>2.5 Years</td><td>Programmer</td><td>In-house forum and website software customizations for clients.</td><td>Perl</td>
+    <td>Gossamer Threads</td><td>2.5 Years</td><td>Programmer</td><td>In-house forum and website software customizations for clients.</td><td>Perl, PHP, MySQL</td>
   </tr>
   <tr>
-    <td>Electronic Arts</td><td>3.5 Years</td><td>Software Engineer</td><td>3d pipeline maintenance, gameplay prototyping, audio programming, animation programming, front-end programming<td>C++, C#, ActionScript.</td>
+    <td>Electronic Arts</td><td>3.5 Years</td><td>Software Engineer</td><td>3d pipeline maintenance, gameplay prototyping, audio programming, animation programming, front-end programming<td>C++, C#, ActionScript, Maya</td>
   </tr>
 </table>
 
 ## Personal Summary
 - Writing C/C++ since 2000
-- Programming since 1998
+- Started in Pascal and HTML/Javascript in 1998
 - Bachelor's Degree in Computer Science
 
 ## More
