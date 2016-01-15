@@ -10,11 +10,25 @@ title: About
 </div>
 
 ## Professional Summary
-- Using GNU/Linux since 2007
-- Writing software since 2005
-- Writing Ruby since 2011
-- Unbounce (3.5yrs), Gossamer Threads (2.5yrs), Electronic Arts (3.5yrs)
-- Currently employed at Mogo as a Senior Developer
+(In reverse chronological order)
+
+<table>
+  <tr>
+    <th>Company</th><th>Duration</th><th>Title</th><th>Responsibilities</th><th>Languages and Technologies</th>
+  </tr>
+  <tr>
+    <td>Mogo</td><td>October 2014 - Present</td><td>Senior Software Developer</td><td>Assist in managing project scope, develop common libraries, implement features. Interview potential hires.</td><td>Ruby, RabbitMQ, Docker</td>
+  </tr>
+  <tr>
+    <td>Unbounce</td><td>3.5 Years</td><td>API Lead</td><td>Design, implement and support HTTP API. Integrations with 3rd parties.</td><td>Ruby, Ruby on Rails, Javascript, Java</td>
+  </tr>
+  <tr>
+    <td>Gossamer Threads</td><td>2.5 Years</td><td>Programmer</td><td>In-house forum and website software customizations for clients.</td><td>Perl</td>
+  </tr>
+  <tr>
+    <td>Electronic Arts</td><td>3.5 Years</td><td>Software Engineer</td><td>3d pipeline maintenance, gameplay prototyping, audio programming, animation programming, front-end programming<td>C++, C#, ActionScript.</td>
+  </tr>
+</table>
 
 ## Personal Summary
 - Writing C/C++ since 2000
