@@ -18,7 +18,7 @@ title: About
 
 ## Personal Summary
 - Writing C/C++ since 2000
-- Programming since 1998
+- Started in Pascal and HTML/Javascript in 1998
 - Bachelor's Degree in Computer Science
 
 ## More
