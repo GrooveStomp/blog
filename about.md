@@ -58,6 +58,8 @@ It's not quite every day, but I'm updating several times a week and exploring ma
 For more in-depth work, see other projects listed there. Of specific note are my [software rasterizer](https://bitbucket.org/GrooveStomp/software-renderer/src) and my [C lexer](https://bitbucket.org/GrooveStomp/c-lexer/src).
 
 ## PGP Public Key
+My public key is available from [pgp.mit.edu](https://pgp.mit.edu)
+
 ```
 ↳ gpg --fingerprint 8ED3DC87
 pub   2048R/8ED3DC87 2016-01-14 [expires: 2017-01-13]
