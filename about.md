@@ -26,7 +26,7 @@ title: About
     <td>Gossamer Threads</td><td>2.5 Years</td><td>Programmer</td><td>In-house forum and website software customizations for clients.</td><td>Perl, PHP, MySQL</td>
   </tr>
   <tr>
-    <td>Electronic Arts</td><td>3.5 Years</td><td>Software Engineer</td><td>3d pipeline maintenance, gameplay prototyping, audio programming, animation programming, front-end programming<td>C++, C#, ActionScript, Maya</td>
+    <td>Electronic Arts</td><td>3.5 Years</td><td>Software Engineer</td><td>3d pipeline maintenance, gameplay prototyping, audio programming, animation programming, front-end programming.<td>C++, C#, ActionScript, Maya</td>
   </tr>
 </table>
 

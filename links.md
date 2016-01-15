@@ -42,7 +42,7 @@ Without further ado, my unidirectional webring links!
   </li>
 
   <li>
-    <a href="https://www.lucasallan.com/">Lucas Allan</a>
+    <a href="https://www.lucasallan.com/">Lucas Amorim</a>
     <p>A good buddy of mine. We've worked together for over three years and share many interests. Strongly recommended!</p>
   </li>
 </ul>
