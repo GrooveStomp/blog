@@ -18,7 +18,7 @@
 
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
-        {% if node.title != null and node.title != 'Links' %}
+        {% if node.title != null and node.title != 'Links' and node.title != 'A Cookie?' %}
           {% if node.layout == "page" %}
             <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
               <a href="{{ node.url }}">{{ node.title }}</a>
@@ -41,10 +41,13 @@
 
       <br/>
       <li class="sidebar-nav-item"><strong>Follow</strong></li>
-      <li class="sidebar-nav-item"><a href="{{ site.url }}/feed.xml" rel="self">Everything Feed</a></li>
-      <li class="sidebar-nav-item"><a href="{{ site.url }}/boardgaming_feed.xml" rel="self"> Boardgaming Feed</a></li>
-      <li class="sidebar-nav-item"><a href="{{ site.url }}/programming_feed.xml" rel="self"> Programming Feed</a></li>
+      <li class="sidebar-nav-item"><a href="/feed.xml" rel="self">Everything Feed</a></li>
+      <li class="sidebar-nav-item"><a href="/boardgaming_feed.xml" rel="self"> Boardgaming Feed</a></li>
+      <li class="sidebar-nav-item"><a href="/programming_feed.xml" rel="self"> Programming Feed</a></li>
 
+      <br />
+      <br />
+      <li class="sidebar-nav-item"><a href="/cookie" rel="self">A Cookie?</a></li>
     </ul>
   </div>
 </div>

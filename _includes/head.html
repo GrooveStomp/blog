@@ -18,7 +18,6 @@
   <link rel="stylesheet" href="/public/css/syntax.css">
   <link rel="stylesheet" href="/public/css/hyde.css">
   <link rel="stylesheet" href="/public/css/local.css">
-  <link href='http://fonts.googleapis.com/css?family=Istok+Web:400,400italic,700' rel='stylesheet' type='text/css'>
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
@@ -29,11 +28,16 @@
 
   <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function(event) {
-      var menu = document.getElementById("menu");
+
+    var sidebar = document.getElementById("sidebar");
+    console.log("Sidebar display style: " + sidebar.style.display);
+
+      var menu = document.getElementById("hamburger");
 
       menu.onclick = function(){
         var sidebar = document.getElementById("sidebar");
-        if (sidebar.style.display == "none") {
+        console.log("Sidebar display style: " + sidebar.style.display);
+        if (sidebar.style.display != "inherit") {
           sidebar.style.display = "inherit";
         } else {
           sidebar.style.display = "none";

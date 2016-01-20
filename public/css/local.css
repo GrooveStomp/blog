@@ -7,7 +7,7 @@ html {
 }
 
 .sidebar-about h1 {
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'Liberation Sans', 'Geneva', 'Roboto', 'MS Sans Serif';
 }
 
 .sidebar-nav-item strong {
@@ -59,7 +59,7 @@ ul.sidebar-nav {
     width: 100%;
     display: block;
     color: #FFF;
-    font-family: "Istok Web", sans-serif;
+    font-family: 'Liberation Sans', 'Geneva', 'Roboto', 'MS Sans Serif';
     font-size: 2em;
     font-weight: bold;
     line-height: 1.25;
@@ -70,27 +70,19 @@ ul.sidebar-nav {
     }
 }
 
-li#menu{
-    list-style-type: none;
+.pixelated {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
 }
-#menu{
+
+#hamburger img{
     position: absolute;
     right: 0;
-    margin-right: 1em;
-    padding-right: 1em;
     display: inline;
-}
-#menu a{
-    padding-left: 1.25em; /* 20px/16px */
-}
-#menu a:before {
-    content: "";
-    position: absolute;
-    top: 30%;
-    right:0px;
-    width:.75em; /* 12px/16px */
-    height:.125em; /* 2px/16px */
-    border-top: .375em double #000; /* 6px/16px */
-    border-bottom: .125em solid #000; /* 2px / 16px */
-    border-color: white;
+    transform: scale(2,2);
+    margin-right: 1em;
+    margin-top: 0.3em;
 }
