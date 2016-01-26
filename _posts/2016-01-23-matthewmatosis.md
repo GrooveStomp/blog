@@ -23,12 +23,8 @@ in-depth commentary on Dark Souls<sup><a href="#2016-01-23_ref4">4</a></sup>, an
 
 ----
 #### Footnotes
-<sub><sup id="2016-01-23_ref1">1</sup><a href="https://www.youtube.com/user/Matthewmatosis/videos">Matthewmatosis Youtube page</a></sub>
-
-<sub><sup id="2016-01-23_ref2">2</sup><a href="https://www.youtube.com/watch?v=d5jBGtNVrS4&list=PLdg60-UktzB6NLg6C9-AVN1H5SXjo97xc">Matthewmatosis Metal Gear Solid Reviews</a></sub>
-
-<sub><sup id="2016-01-23_ref3">3</sup><a href="https://www.youtube.com/watch?v=o908SWJ8ulc&list=PLdg60-UktzB7FOxFNrVBmNZN7jqhkQdIu">Matthewmatosis Zelda Reviews</a></sub>
-
-<sub><sup id="2016-01-23_ref4">4</sup><a href="https://www.youtube.com/watch?v=EV16ROaHVfo">Matthewmatosis Dark Souls Commentary</a></sub>
-
-<sub><sup id="2016-01-23_ref5">5</sup><a href="https://www.youtube.com/watch?v=UScsme8didI">Matthewmatosis Dark Souls 2 Critique</a></sub>
+<sub><sup id="2016-01-23_ref1">1</sup><a href="https://www.youtube.com/user/Matthewmatosis/videos">Matthewmatosis Youtube page</a></sub><br />
+<sub><sup id="2016-01-23_ref2">2</sup><a href="https://www.youtube.com/watch?v=d5jBGtNVrS4&list=PLdg60-UktzB6NLg6C9-AVN1H5SXjo97xc">Matthewmatosis Metal Gear Solid Reviews</a></sub><br />
+<sub><sup id="2016-01-23_ref3">3</sup><a href="https://www.youtube.com/watch?v=o908SWJ8ulc&list=PLdg60-UktzB7FOxFNrVBmNZN7jqhkQdIu">Matthewmatosis Zelda Reviews</a></sub><br />
+<sub><sup id="2016-01-23_ref4">4</sup><a href="https://www.youtube.com/watch?v=EV16ROaHVfo">Matthewmatosis Dark Souls Commentary</a></sub><br />
+<sub><sup id="2016-01-23_ref5">5</sup><a href="https://www.youtube.com/watch?v=UScsme8didI">Matthewmatosis Dark Souls 2 Critique</a></sub><br />

@@ -46,35 +46,35 @@ worth doing, it's not always easy to do and the benefits aren't obvious or immed
   <a href="https://www.groovestomp.com/2015/12/12/ludum-dare/">2015-12-12: Ludum Dare</a>
 </span>
 </sub>
-
+<br />
 <sub>
 <span id="2016-01-19-ref2">
   <sup>2</sup>
   <a href="https://youtu.be/H_cpWfRblws?t=4711">Mike Acton speaking at HandmadeCon</a>
 </span>
 </sub>
-
+<br />
 <sub>
 <span id="2016-01-19-ref3">
   <sup>3</sup>
   <a href="https://bitbucket.org/GrooveStomp/practice/src/3a0c50166004ed87a5bea71a7be647a18dc63185/2015/12/10/?at=master">Bezier Curves on the Pico-8</a>
 </span>
 </sub>
-
+<br />
 <sub>
 <span id="2016-01-19-ref4">
   <sup>4</sup>
   <a href="https://bitbucket.org/GrooveStomp/practice/wiki/Home">BitBucket Practice repository wiki page</a>
 </span>
 </sub>
-
+<br />
 <sub>
 <span id="2016-01-19-ref5">
   <sup>5</sup>
   <a href="https://www.groovestomp.com/boardgaming/">My posts about boardgames</a>
 </span>
 </sub>
-
+<br />
 <sub>
 <span id="2016-01-19-ref6">
   <sup>6</sup>
