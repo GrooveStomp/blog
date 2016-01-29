@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Self Hosting
-tags: misc
+tags: self-hosting
 ---
 
 I'm going to start this post with a little problem I created for myself.
