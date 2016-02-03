@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UEFI and Windows 10
-tags: computers, software
+tags: computers software
 ---
 
 My primary desktop environment is some variant of GNU/Linux.  The only case where this hasn't been true is

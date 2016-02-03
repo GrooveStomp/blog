@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Game Reviews, OSes and the 3DS
-tags: videogaming, computers, software
+tags: videogaming computers software
 ---
 
 Today is a grab-bag of miscellaneous thoughts and updates that aren't necessarily related to each other.
