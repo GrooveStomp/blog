@@ -9,6 +9,37 @@ title: About
   Hi, I'm Aaron Oman.  My online handle is GrooveStomp.
 </div>
 
+## Personal Summary
+- Writing C/C++ since 2000
+- Started in Pascal and HTML/Javascript in 1998
+- Bachelor's Degree in Computer Science
+
+I like programming, boardgames, videogames, the great outdoors and I love my
+family. I am curious about programming languages and have dabbled in a good
+variety but mostly stick to C and Ruby these days.  I have always sat on the
+sidelines of videogame development and continue to pursue interests there,
+mostly at a glacial pace.  I'm currently working on a software renderer and a
+C parser. I have an interest in privacy and security and have dabbled in some of
+those technologies.
+
+I make an effort to be courteous and honest and to communicate clearly. I'm one
+of those people who don't like titles in the workplace and work best assuming
+a peer group of nearly equivalent skill.
+
+## Programming
+If you want to see what I've been up to, then I strongly urge you to see my [daily programming practice on BitBucket](https://bitbucket.org/GrooveStomp/practice/src).
+It's not quite every day, but I'm updating several times a week and exploring many concepts.<br/>
+For more in-depth work, see other projects listed there. Of specific note are my [software rasterizer](https://bitbucket.org/GrooveStomp/software-renderer/src) and my [C parser](https://bitbucket.org/GrooveStomp/c-parser/src).
+
+## PGP Public Key
+My public key is available from [pgp.mit.edu](https://pgp.mit.edu)
+
+    ↳ gpg --fingerprint 8ED3DC87
+    pub   2048R/8ED3DC87 2016-01-14 [expires: 2017-01-13]
+          Key fingerprint = 850C 66AF CDDE A396 A862  A2A6 88C8 88E4 8ED3 DC87
+    uid                  Aaron Oman (GrooveStomp) <aaronoman@protonmail.com>
+    sub   2048R/600C9EE6 2016-01-14 [expires: 2017-01-13]
+
 ## Professional Summary
 (In reverse chronological order)
 
@@ -29,41 +60,3 @@ title: About
     <td>Electronic Arts</td><td>3.5 Years</td><td>Software Engineer</td><td>3d pipeline maintenance, gameplay prototyping, audio programming, animation programming, front-end programming.<td>C++, C#, ActionScript, Maya</td>
   </tr>
 </table>
-
-## Personal Summary
-- Writing C/C++ since 2000
-- Started in Pascal and HTML/Javascript in 1998
-- Bachelor's Degree in Computer Science
-
-## More
-I like programming, boardgames, videogames, the great outdoors and I love my family.
-
-In terms of software, I am a huge language geek.  Lisps, stack-based languages,
-functional languages; static typing, dynamic typing, strong typing, weak typing;
-concurrency, parallelism; parsing, datastructures - any one of these topics
-is a rich field of research and I like it all.
-
-Beyond more academic pursuits like language development, I am significantly interested
-in privacy and security.  There are huge gains to be made in terms of ease of use
-for broader adoption of privacy and security standards like PGP encryption of email,
-OTR messaging, full disk encryption and encrypted calls.
-
-Professionally I try to exemplify those principles that I value most.  This includes
-being courteous and honest, clearly communicating with all peers, and acting fairly and directly
-regardless of title or experience.
-
-## Programming
-If you want to see what I've been up to, then I strongly urge you to see my [daily programming practice on BitBucket](https://bitbucket.org/GrooveStomp/practice/src).
-It's not quite every day, but I'm updating several times a week and exploring many concepts.<br/>
-For more in-depth work, see other projects listed there. Of specific note are my [software rasterizer](https://bitbucket.org/GrooveStomp/software-renderer/src) and my [C lexer](https://bitbucket.org/GrooveStomp/c-lexer/src).
-
-## PGP Public Key
-My public key is available from [pgp.mit.edu](https://pgp.mit.edu)
-
-```
-↳ gpg --fingerprint 8ED3DC87
-pub   2048R/8ED3DC87 2016-01-14 [expires: 2017-01-13]
-      Key fingerprint = 850C 66AF CDDE A396 A862  A2A6 88C8 88E4 8ED3 DC87
-uid                  Aaron Oman (GrooveStomp) <aaronoman@protonmail.com>
-sub   2048R/600C9EE6 2016-01-14 [expires: 2017-01-13]
-```
