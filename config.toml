@@ -1,0 +1,15 @@
+baseurl = "http://127.0.0.1:1234"
+title = "GrooveStomp"
+hqlanguageCode = "en-us"
+
+[params]
+author = "Aaron Oman"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
+[pagination]
+Paginate = 10
+PaginatePath = "page"

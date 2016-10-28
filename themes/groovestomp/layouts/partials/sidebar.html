@@ -1,0 +1,31 @@
+<div class="sidebar" id="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <img src="/groovestomp_icon.jpg" alt="GrooveStomp Profile Picture" class="horizontally-centered" />
+      <h1 class="sidebar-title horizontally-centered">{{ .Site.Title }}</h1>
+    </div>
+
+    <ul class="sidebar-nav">
+
+      <li class="sidebar-nav-item{{ if eq .Title "GrooveStomp" }} active{{ end }}"><a href="/">Latest</a></li>
+      <li class="sidebar-nav-item{{ if eq .Title "About" }} active{{ end }}"><a href="/about/">About</a></li>
+      <li class="sidebar-nav-item{{ if eq .Title "All Posts" }} active{{ end }}"><a href="/all_posts/">All Posts</a></li>
+      <li class="sidebar-nav-item{{ if eq .Title "Boardgaming" }} active{{ end }}"><a href="/tags/boardgaming/">Boardgaming</a></li>
+      <li class="sidebar-nav-item{{ if eq .Title "Programming" }} active{{ end }}"><a href="/programming/">Programming</a></li>
+
+      <br/>
+      <li class="sidebar-nav-item"><strong>Elsewhere</strong></li>
+
+      <li class="sidebar-nav-item"><a href="https://git.groovestomp.com">GrooveStomp Code</a></li>
+      <li class="sidebar-nav-item"><a href="https://twitter.com/GrooveStomp">Twitter</a></li>
+      <li class="sidebar-nav-item"><a href="https://github.com/GrooveStomp">GitHub</a></li>
+      <li class="sidebar-nav-item"><a href="https://bitbucket.org/GrooveStomp">BitBucket</a></li>
+
+      <br/>
+      <li class="sidebar-nav-item"><strong>Follow</strong></li>
+      <li class="sidebar-nav-item"><a href="/feed.xml" rel="self">Everything Feed</a></li>
+      <li class="sidebar-nav-item"><a href="/boardgaming_feed.xml" rel="self"> Boardgaming Feed</a></li>
+      <li class="sidebar-nav-item"><a href="/programming_feed.xml" rel="self"> Programming Feed</a></li>
+    </ul>
+  </div>
+</div>

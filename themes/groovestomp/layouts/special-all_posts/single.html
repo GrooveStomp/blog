@@ -1,0 +1,38 @@
+{{ partial "header.html" . }}
+
+<body class="layout-reverse">
+
+{{ partial "mobile_header.html" . }}
+{{ partial "sidebar.html" . }}
+
+<div class="content container">
+
+  <h1>{{ .Title }}</h1>
+
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Date</th>
+      <th>Tags</th>
+    </tr>
+
+    {{ range .Site.AllPages }}
+    {{if eq .Type "post" }}
+        <tr>
+          <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+          <td>{{ dateFormat "2006-01-02" .Date }}</td>
+          <td>
+            {{ delimit .Params.tags ", " }}
+          </td>
+        </tr>
+        {{ end }}
+    {{ end }}
+  </table>
+
+  <hr />
+
+  {{ .Content }}
+
+</div>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+
+<body class="layout-reverse">
+
+{{ partial "mobile_header.html" . }}
+{{ partial "sidebar.html" . }}
+
+<div class="content container">
+
+  {{ range .Data.Pages }}
+
+  <div class="post">
+    <a href="{{ .Permalink }}">
+      <h1 class="post-title">{{ .Title }}</h1>
+    </a>
+    <span class="post-date">{{ dateFormat "2006-01-02" .Date }}</span>
+    {{ .Content }}
+  </div>
+
+  {{ end }}
+
+</div>
+
+{{ partial "footer.html" . }}

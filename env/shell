@@ -1,2 +1,0 @@
-alias bundle_install="bundle install --binstubs env/bin --path env/gems"
-alias run="bundle exec jekyll serve"

@@ -1,0 +1,11 @@
+name = "GrooveStomp"
+license = "Affero GPLv3"
+licenselink = "https://www.gnu.org/licenses/agpl-3.0.html"
+description = "Modified poole and hyde themes from my Jekyll blog."
+tags = ["blog"]
+features = ["blog"]
+min_version = 0.1
+
+[author]
+    name = "Aaron Oman"
+    homepage = "http://www.groovestomp.com"

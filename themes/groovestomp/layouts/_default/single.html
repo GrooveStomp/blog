@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+<body class="layout-reverse">
+
+{{ partial "mobile_header.html" . }}
+{{ partial "sidebar.html" . }}
+
+<div class="content container">
+{{ .Content }}
+</div>
+
+{{ partial "footer.html" . }}
