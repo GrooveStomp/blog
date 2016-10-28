@@ -1,6 +1,7 @@
 ---
-layout: post
-tags: programming
+date: 2016-01-19
+title: Daily Coding Practice
+tags: [programming]
 ---
 
 I've mentioned before that I've begun what I call "daily coding practice."<sup><a href="#2016-01-19-ref1">1</a></sup>  My inspiration for this comes directly from Mike Acton by way of HandmadeCon<sup><a href="#2016-01-19-ref2">2</a></sup>.

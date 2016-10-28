@@ -1,7 +1,7 @@
 ---
-layout: post
+date: 2016-01-28
 title: An Update On Self-Hosting Progress
-tags: self-hosting
+tags: [self-hosting]
 ---
 
 Well, it seems I'm making very slow progress towards my goal of self-hosting.  The first issue I've run into

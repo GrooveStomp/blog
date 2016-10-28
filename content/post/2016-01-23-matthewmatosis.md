@@ -1,6 +1,7 @@
 ---
-layout: post
-tags: videogaming
+date: 2016-01-23
+title: MatthewMatosis
+tags: [videogaming]
 ---
 
 This is a short post.

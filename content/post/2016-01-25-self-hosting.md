@@ -1,7 +1,7 @@
 ---
-layout: post
+date: 2016-01-25
 title: Self Hosting
-tags: self-hosting
+tags: [self-hosting]
 ---
 
 I'm going to start this post with a little problem I created for myself.
