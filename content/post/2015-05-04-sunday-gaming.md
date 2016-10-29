@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-05-04
+url: /2015/05/04/sunday-gaming
 title: Sunday Gaming
 tags: [boardgames]
 ---

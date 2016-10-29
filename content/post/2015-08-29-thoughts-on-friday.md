@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-08-29
+url: 2015/08/29/thoughts-on-friday
 title: Thoughts on Friday
 tags: [boardgames, friday]
 ---

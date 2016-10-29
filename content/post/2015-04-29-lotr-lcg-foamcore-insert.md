@@ -1,6 +1,7 @@
 ---
-layout: post
-title: "LOTR:LCG Foamcore Insert"
+date: 2015-04-29
+url: /2015/04/29/lotr-lcg-foamcore-insert
+title: LOTR:LCG Foamcore Insert
 tags: [boardgames, lotr]
 ---
 

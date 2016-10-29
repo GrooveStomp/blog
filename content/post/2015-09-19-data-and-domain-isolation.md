@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-09-19
+url: 2015/09/19/data-and-domain-isolation
 title: Data and Domain Isolation
 tags: [programming]
 ---

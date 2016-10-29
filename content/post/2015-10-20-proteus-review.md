@@ -1,7 +1,8 @@
 ---
-layout: post
+date: 2015-10-20
+url: 2015/10/20/proteus-review
 title: Proteus Review
-tags: videogaming
+tags: [videogaming]
 ---
 
 The best way I can think of to open this review is by quoting myself:

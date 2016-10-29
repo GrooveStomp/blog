@@ -1,7 +1,8 @@
 ---
-layout: post
+date: 2015-11-10
+url: 2015/11/10/bernband-review
 title: Bernband Review
-tags: videogaming
+tags: [videogaming]
 ---
 
 I'm drawn to the idea of walking simulators.  It's no coincidence that my first "intentional" game review was of Proteus.

@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-09-16
+url: 2015/09/16/balancing-development-considerations
 title: Balancing Development Considerations
 tags: [programming]
 ---

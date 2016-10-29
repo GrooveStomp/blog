@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-05-20
+url: /2015/05/20/a-return-to-lotr-lcg
 title: "A return... to LOTR:LCG"
 tags: [boardgames, lotr]
 ---

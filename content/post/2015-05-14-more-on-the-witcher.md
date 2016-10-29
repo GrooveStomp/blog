@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-05-14
+url: 2015/05/14/more-on-the-witcher
 title: More on The Witcher
 tags: [boardgames, witcher]
 ---

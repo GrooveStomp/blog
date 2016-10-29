@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-04-26
+url: /2015/04/26/some-words-on-iconography/
 title: Some Words on Iconography
 tags: [boardgames]
 ---

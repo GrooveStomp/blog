@@ -1,6 +1,7 @@
 ---
-layout: post
-title: "Swapping RftG in for Dice Masters"
+date: 2015-05-07
+url: 2015/05/07/swapping-rftg-in-for-dice-masters
+title: Swapping RftG in for Dice Masters
 tags: [boardgames, rftg]
 ---
 

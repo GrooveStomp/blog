@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-05-09
+url: /2015/05/09/marvel-legendary-via-vassal
 title: Marvel Legendary via Vassal
 tags: [boardgames]
 ---

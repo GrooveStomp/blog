@@ -1,7 +1,8 @@
 ---
-layout: post
+url: 2015/12/12/ludum-dare
+date: 2015-12-12
 title: Ludum Dare (2015-12-12)
-tags: programming
+tags: [programming]
 ---
 
 [Ludum Dare 34](http://ludumdare.com/compo/2015/12/09/welcome-to-ludum-dare-34/) kicks off this weekend.
