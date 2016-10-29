@@ -1,6 +1,6 @@
 ---
 date: 2015-08-27
-url: 2015/08/27/boardgaming-update
+url: /2015/08/27/boardgaming-update
 title: Going For Ten
 tags: [boardgames]
 ---

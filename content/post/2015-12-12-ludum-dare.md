@@ -1,5 +1,5 @@
 ---
-url: 2015/12/12/ludum-dare
+url: /2015/12/12/ludum-dare
 date: 2015-12-12
 title: Ludum Dare (2015-12-12)
 tags: [programming]
