@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-04-24T12:00:00
+url: /2015/04/24/vivajava-the-coffee-game-the-dice-game/
 title: "VivaJava: The Coffee Game: The Dice Game"
 tags: [boardgames]
 ---

@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-04-24T10:00:00
+url: /2015/04/24/latest-temptations/
 title: Latest Temptations
 tags: [boardgames]
 ---

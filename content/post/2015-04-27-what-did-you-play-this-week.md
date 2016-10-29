@@ -1,6 +1,6 @@
 ---
 date: 2015-04-27T12:00:00
-url: /2015/04/27/what-did-you-play-this-week
+url: /2015/04/27/what-did-you-play-this-week/
 title: What did you play this week (Apr 20 - Apr 26)?
 tags: [boardgames]
 ---

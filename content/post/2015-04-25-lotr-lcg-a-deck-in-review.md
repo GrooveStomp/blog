@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-04-25T12:00:00
+url: /2015/04/25/lotr-lcg-a-deck-in-review/
 title: "LOTR:LCG: A Deck in Review"
 tags: [boardgames, lotr]
 ---

@@ -1,6 +1,6 @@
 ---
 date: 2015-10-20
-url: /2015/10/20/proteus-review
+url: /2015/10/20/proteus-review/
 title: Proteus Review
 tags: [videogaming]
 ---

@@ -1,6 +1,6 @@
 ---
 date: 2015-05-01
-url: /2015/05/01/rftg-the-gathering-storm
+url: /2015/05/01/rftg-the-gathering-storm/
 title: "RftG: The Gathering Storm"
 tags: [boardgames, rftg]
 ---

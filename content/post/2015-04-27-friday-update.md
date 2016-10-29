@@ -1,6 +1,6 @@
 ---
 date: 2015-04-27T10:00:00
-url: /2015/04/27/friday-update
+url: /2015/04/27/friday-update/
 title: Friday Update
 tags: [boardgames, friday]
 ---

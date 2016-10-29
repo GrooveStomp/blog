@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-04-21T10:00:00
+url: /2015/04/21/lord-of-the-rings-the-card-game/
 title: "Lord of the Rings: The Card Game"
 tags: [boardgames, lotr]
 ---

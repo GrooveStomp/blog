@@ -1,6 +1,6 @@
 ---
 date: 2015-05-12
-url: /2015/05/12/the-witcher-adventure-card-game
+url: /2015/05/12/the-witcher-adventure-card-game/
 title: The Witcher Adventure Game
 tags: [boardgames, witcher]
 ---

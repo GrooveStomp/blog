@@ -1,6 +1,6 @@
 ---
 date: 2015-11-10
-url: /2015/11/10/bernband-review
+url: /2015/11/10/bernband-review/
 title: Bernband Review
 tags: [videogaming]
 ---
