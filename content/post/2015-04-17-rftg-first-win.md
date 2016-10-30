@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-04-17T18:00:00
+url: /2015/04/17/rftg-first-win/
 title: "RFTG - First Win!"
 tags: [boardgames, rftg]
 ---

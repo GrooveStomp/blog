@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-04-17T12:00:00
+url: /2015/04/17/bang-the-dice-game/
 title: "Bang! The Dice Game"
 tags: [boardgames]
 ---

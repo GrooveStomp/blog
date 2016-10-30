@@ -1,7 +1,8 @@
 ---
-layout: post
+date: 2014-02-25
+url: /2014/02/25/chef-dependencies/
 title: Chef Dependency Management
-tags: [programming]
+tags: [programming, devops]
 ---
 
 At work we've been using Chef to manage systems automation.  It's been a bit of a rough process with only one

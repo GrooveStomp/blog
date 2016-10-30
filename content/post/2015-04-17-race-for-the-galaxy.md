@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-04-17T14:00:00
+url: /2015/04/17/race-for-the-galaxy/
 title: Race for the Galaxy
 tags: [boardgames, rftg]
 ---

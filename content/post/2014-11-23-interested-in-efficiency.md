@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2014-11-23
+url: /2014/11/23/interested-in-efficiency/
 title: Interested in Efficiency
 tags: [programming]
 ---

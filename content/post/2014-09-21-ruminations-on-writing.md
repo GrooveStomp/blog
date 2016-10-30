@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2014-09-21
+url: /2014/09/21/ruminations-on-writing/
 title: Ruminations on Writing
 tags: [writing]
 ---

@@ -1,7 +1,8 @@
 ---
-layout: post
+date: 2014-03-09
+url: /2014/03/09/bangbangcon/
 title: Proposing a Talk for !!Con
-tags: []
+tags: [public speaking, conferences]
 ---
 
 I am writing a proposal for a 10 minute "lightning talk" at [!!Con](http://bangbangcon.com/).

@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-04-17T16:00:00
+url: /2015/04/17/rftg-on-linux/
 title: RFTG on Linux
 tags: [boardgames, rftg, linux]
 ---

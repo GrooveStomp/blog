@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2014-10-14
+url: /2014/10/14/started-at-mogo/
 title: New Position at Mogo
 tags: [job]
 ---

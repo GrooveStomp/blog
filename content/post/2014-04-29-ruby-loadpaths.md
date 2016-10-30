@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2014-04-29
+url: /2014/04/29/ruby-loadpaths/
 title: Ruby Loadpath Confusion
 tags: [programming, ruby, filesystem, filesystems]
 ---

@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2015-04-15T12:00:00
+url: /2015/04/15/a-shadowrun-crossfire-diversion/
 title: "A Shadowrun: Crossfire diversion"
 tags: [boardgames, shadowrun]
 ---

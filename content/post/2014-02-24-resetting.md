@@ -1,5 +1,6 @@
 ---
-layout: post
+date: 2014-02-24
+url: /2014/02/24/resetting/
 title: Resetting
 tags: [website, family]
 ---
