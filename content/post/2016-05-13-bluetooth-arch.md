@@ -1,5 +1,6 @@
 ---
 date: 2016-05-13
+url: /2016/05/13/bluetooth-arch/
 title: Bluetooth on Arch
 tags: [ps3-controller, bluetooth, arch-linux]
 ---

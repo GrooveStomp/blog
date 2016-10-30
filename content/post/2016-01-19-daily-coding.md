@@ -1,5 +1,6 @@
 ---
 date: 2016-01-19
+url: /2016/01/19/daily-coding/
 title: Daily Coding Practice
 tags: [programming]
 ---

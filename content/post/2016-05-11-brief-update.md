@@ -1,5 +1,6 @@
 ---
 date: 2016-05-11
+url: /2016/05/11/brief-update/
 title: Brief Update for 2016-05-11
 tags: [general]
 ---

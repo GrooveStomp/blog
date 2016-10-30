@@ -1,5 +1,6 @@
 ---
 date: 2016-02-03
+url: /2016/02/03/game-reviews-update/
 title: Game Reviews, OSes and the 3DS
 tags: [videogaming, computers, software]
 ---

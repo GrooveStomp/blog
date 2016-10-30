@@ -1,5 +1,6 @@
 ---
 date: 2016-02-02
+url: /2016/02/02/bad-software/
 title: UEFI and Windows 10
 tags: [computers, software]
 ---

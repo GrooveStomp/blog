@@ -1,5 +1,6 @@
 ---
 date: 2016-01-23
+url: /2016/01/23/matthewmatosis/
 title: MatthewMatosis
 tags: [videogaming]
 ---

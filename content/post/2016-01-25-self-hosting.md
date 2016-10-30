@@ -1,5 +1,6 @@
 ---
 date: 2016-01-25
+url: /2016/02/25/self-hosting/
 title: Self Hosting
 tags: [self-hosting]
 ---

@@ -1,5 +1,6 @@
 ---
 date: 2016-01-28
+url: /2016/02/28/self-hosting-struggles/
 title: An Update On Self-Hosting Progress
 tags: [self-hosting]
 ---
