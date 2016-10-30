@@ -2,7 +2,7 @@
 date: 2015-08-27
 url: /2015/08/27/boardgaming-update/
 title: Going For Ten
-tags: [boardgames]
+tags: [boardgaming]
 ---
 
 I don't recall if I've ever explicitly mentioned on here the 10x10 challenge for boardgaming.  I don't know it

@@ -2,7 +2,7 @@
 date: 2015-04-15T18:00:00
 url: /2015/04/15/rpg-backstories/
 title: RPG Backstories
-tags: [boardgames, trpgs, "d&d"]
+tags: [boardgaming, trpgs, "d&d"]
 ---
 
 My favourite part of D&amp;D to date has been pouring over resources and thinking up a backstory for my character.

@@ -2,7 +2,7 @@
 date: 2015-05-14
 url: /2015/05/14/more-on-the-witcher/
 title: More on The Witcher
-tags: [boardgames, witcher]
+tags: [boardgaming, witcher]
 ---
 
 Well, I got two more games of The Witcher Adventure Game under my belt this evening.  The first game I played was supposed to go to 3 quests, but I quit after two.  Man, that was incredibly frustrating.  One thing that became very apparent is how little interaction there is among players.  This is more of a "multiplayer solitaire" game than any other game I've played.  I seriously just open a browser window and do something completely differently while the computer opponents play their roles.  They can draw cards that negatively impact you... but you might as well just draw a random card at the start of the turn for all the input you have as to whether it'll happen or not.  I've drawn cards that have negatively affected other players, but it's not like I ever chose to enact that ability or anything - it was fully automatic.

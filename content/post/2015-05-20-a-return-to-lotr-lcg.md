@@ -2,7 +2,7 @@
 date: 2015-05-20
 url: /2015/05/20/a-return-to-lotr-lcg/
 title: "A return... to LOTR:LCG"
-tags: [boardgames, lotr]
+tags: [boardgaming, lotr]
 ---
 
 With my last post being on the 13th, it seems as though I've had a slight hiatus from gaming.  For the  most part, I would agree with this.  I managed to play some D&amp;D and Ascension via my phone.

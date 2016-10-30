@@ -2,7 +2,7 @@
 date: 2015-04-20
 url: /2015/04/20/what-did-you-play-this-week/
 title: "What did you play this week (Apr 13 - Apr 19)?"
-tags: [boardgames]
+tags: [boardgaming]
 ---
 
 From <a href="https://www.reddit.com/r/boardgames/comments/338aos/what_did_you_play_this_week_apt_13_apr_19/">the Reddit thread</a>.

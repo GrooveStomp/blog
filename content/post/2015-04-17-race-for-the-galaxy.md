@@ -2,7 +2,7 @@
 date: 2015-04-17T14:00:00
 url: /2015/04/17/race-for-the-galaxy/
 title: Race for the Galaxy
-tags: [boardgames, rftg]
+tags: [boardgaming, rftg]
 ---
 
 I know what the next game I am going to buy "for me" is going to be.  Apparently <a href="http://boardgamegeek.com/boardgame/132531/roll-galaxy">Roll for the Galaxy</a> is a more friendly iteration of the game.  At least <a href="https://youtu.be/-Z3H0H4WXeU?t=694">Tom Vasel and Sam Healey</a> think so.  I can't speak to that, though.  I've been playing the <a href="http://keldon.net/rftg/">Keldon AI</a> to learn the game, and I must say: I am hooked.  I started last night and couldn't stop thinking about it.  All day at work today it was on my mind.  My local game store has open boardgaming on Thursdays, so I hopped over and cracked the open box of <a href="http://boardgamegeek.com/boardgame/28143/race-galaxy">RFTG</a> - just setting up the play area and looking through all the components.  After the store closed, I came back home and booted up the Keldon AI again for a few more rounds.

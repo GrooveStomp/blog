@@ -2,7 +2,7 @@
 date: 2015-04-26
 url: /2015/04/26/some-words-on-iconography/
 title: Some Words on Iconography
-tags: [boardgames]
+tags: [boardgaming]
 ---
 
 Race for the Galaxy gets a lot of flack for its iconography.  I think most of this flack is undeserved. The iconography on the cards is there to prevent players having to frequently refer to the rulebook.  Most of the icons are very intuitive, and the ones that aren't are accompanied by a descriptive block of text which typically immediately elucidates the meaning of said icons.

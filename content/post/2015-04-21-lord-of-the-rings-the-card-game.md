@@ -2,7 +2,7 @@
 date: 2015-04-21T10:00:00
 url: /2015/04/21/lord-of-the-rings-the-card-game/
 title: "Lord of the Rings: The Card Game"
-tags: [boardgames, lotr]
+tags: [boardgaming, lotr]
 ---
 
 Lord of the Rings: The Card Game, a.k.a Lord of the Rings: LCG, a.k.a LOTR:LCG - which is how I'll refer to it from now on.

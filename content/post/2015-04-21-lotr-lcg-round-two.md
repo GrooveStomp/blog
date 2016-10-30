@@ -2,7 +2,7 @@
 date: 2015-04-21T12:00:00
 url: /2015/04/21/lotr-lcg-round-two/
 title: "LOTR:LCG: Round Two"
-tags: [boardgames, lotr]
+tags: [boardgaming, lotr]
 ---
 
 Wow.  Okay, so that was a completely different experience.

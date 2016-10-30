@@ -2,7 +2,7 @@
 date: 2015-04-25T12:00:00
 url: /2015/04/25/lotr-lcg-a-deck-in-review/
 title: "LOTR:LCG: A Deck in Review"
-tags: [boardgames, lotr]
+tags: [boardgaming, lotr]
 ---
 
 I <a href="/2015/04/21/lotr-lcg-round-two/">recently built a custom deck</a> to take me through the first scenario.  It worked wonderfully that first shot, and that felt great; though I was a little surprised it worked as well as it did.  Tonight I gave it a second test drive and definitely ran into some kinks.

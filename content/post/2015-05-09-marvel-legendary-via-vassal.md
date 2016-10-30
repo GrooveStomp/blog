@@ -2,7 +2,7 @@
 date: 2015-05-09
 url: /2015/05/09/marvel-legendary-via-vassal/
 title: Marvel Legendary via Vassal
-tags: [boardgames]
+tags: [boardgaming]
 ---
 
 As any reader of this blog is probably aware, I started playing Dice Masters a short while ago.  Coincidentally, the second Avengers movie was released within the last two weeks and I had the opportunity to watch that with a friend.  I am absolutely certain that this confluence of events has left me thinking about Marvel Legendary.

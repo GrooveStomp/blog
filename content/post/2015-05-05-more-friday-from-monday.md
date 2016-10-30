@@ -2,7 +2,7 @@
 date: 2015-05-05
 url: /2015/05/05/more-friday-from-monday/
 title: More Friday - From Monday
-tags: [boardgames, friday]
+tags: [boardgaming, friday]
 ---
 
 Wow.

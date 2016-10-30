@@ -2,7 +2,7 @@
 date: 2015-04-15T12:00:00
 url: /2015/04/15/a-shadowrun-crossfire-diversion/
 title: "A Shadowrun: Crossfire diversion"
-tags: [boardgames, shadowrun]
+tags: [boardgaming, shadowrun]
 ---
 
 I've really been struggling with Shadowrun: Crossfire. I love the theme to death and the mechanics work nicely. There's just something off about it. For one thing, it's punishingly hard; I've played 8 times and lost every single one. It doesn't seem to matter whether I'm playing single player, two player or three. (Haven't tried four yet.) The best progress I've made was playing four runners solo.

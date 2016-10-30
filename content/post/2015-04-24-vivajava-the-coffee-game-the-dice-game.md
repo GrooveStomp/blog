@@ -2,7 +2,7 @@
 date: 2015-04-24T12:00:00
 url: /2015/04/24/vivajava-the-coffee-game-the-dice-game/
 title: "VivaJava: The Coffee Game: The Dice Game"
-tags: [boardgames]
+tags: [boardgaming]
 ---
 
 One of the greatest names in boardgaming history.  Go on, just say it out loud to yourself a few times.

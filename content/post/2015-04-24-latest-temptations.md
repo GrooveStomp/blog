@@ -2,7 +2,7 @@
 date: 2015-04-24T10:00:00
 url: /2015/04/24/latest-temptations/
 title: Latest Temptations
-tags: [boardgames]
+tags: [boardgaming]
 ---
 
 Being the sophisticated gamer that I am, I'm constantly on the lookout for new games to pick up.  There are all kinds of games for all types of situations.  A very brief overview of what has been on my mind in the past couple months goes like this:

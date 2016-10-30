@@ -2,7 +2,7 @@
 date: 2015-05-10
 url: /2015/05/10/marvel-legendary-second-play/
 title: Marvel Legendary - Secondary Play
-tags: [boardgames]
+tags: [boardgaming]
 ---
 
 I decided to give it another go.  I played the following setup:

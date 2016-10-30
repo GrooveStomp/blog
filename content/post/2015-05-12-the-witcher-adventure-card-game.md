@@ -2,7 +2,7 @@
 date: 2015-05-12
 url: /2015/05/12/the-witcher-adventure-card-game/
 title: The Witcher Adventure Game
-tags: [boardgames, witcher]
+tags: [boardgaming, witcher]
 ---
 
 GOG is having an "up to 85%" off sale for their Witcher series of games.  I already have The Witcher 1 and 2, but they're also offering The Witcher Adventure Game.  I was part of the beta, but didn't have an opportunity to play it, and only attempted to play the demo a couple of times.  I found the tutorial wasn't particularly elucidating and just let it be.  I've been curious about the boardgame for some time, but don't know anybody who's played it, and haven't seen it come up very often in any boardgame discussions.  It did get a shout out on one episode of The Dice Tower podcast, and that somewhat piqued my interest.

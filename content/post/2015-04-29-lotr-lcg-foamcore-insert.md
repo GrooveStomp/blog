@@ -2,7 +2,7 @@
 date: 2015-04-29
 url: /2015/04/29/lotr-lcg-foamcore-insert/
 title: LOTR:LCG Foamcore Insert
-tags: [boardgames, lotr]
+tags: [boardgaming, lotr]
 ---
 
 I built my first foamcore insert! <a href="https://imgur.com/a/QQQQn">See my imgur album here</a>.

@@ -2,7 +2,7 @@
 date: 2015-05-07
 url: /2015/05/07/swapping-rftg-in-for-dice-masters/
 title: Swapping RftG in for Dice Masters
-tags: [boardgames, rftg]
+tags: [boardgaming, rftg]
 ---
 
 During a slight bit of downtime today I separated my Dice Masters decks back into the cards that came with the starter set and those that didn't. My Dice Masters gaming buddy came over, and instead of Dice Masters, we played two games of Race for the Galaxy!
