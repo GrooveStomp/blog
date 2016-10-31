@@ -16,7 +16,7 @@
       <th>Tags</th>
     </tr>
 
-    {{ range .Site.AllPages }}
+    {{ range .Site.Pages }}
     {{if eq .Type "post" }}
         <tr>
           <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
