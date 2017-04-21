@@ -22,7 +22,9 @@
           <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
           <td>{{ dateFormat "2006-01-02" .Date }}</td>
           <td>
-            {{ delimit .Params.tags ", " }}
+            {{ with .Params.tags }}
+              {{ delimit . ", " }}
+            {{ end }}
           </td>
         </tr>
         {{ end }}
