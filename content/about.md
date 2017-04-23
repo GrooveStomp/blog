@@ -27,11 +27,11 @@ of those people who don't like titles in the workplace and work best assuming
 a peer group of nearly equivalent skill.
 
 ## Programming
-If you want to see what I've been up to, then I strongly urge you to see my [daily programming practice](https://git.groovestomp.com/practice/tree/).
+If you want to see what I've been up to, then I strongly urge you to see my [daily programming practice](https://code.groovestomp.com/practice/tree/).
 It's not quite every day, but I'm updating several times a week and exploring many concepts.<br/>
-For more in-depth work, see other projects listed there. Of specific note are my [software renderer](https://git.groovestomp.com/software-renderer/tree/) and my [C parser](https://git.groovestomp.com/cparser/tree/).<br/>
-I also have a [personal C library](https://git.groovestomp.com/gslibc/tree) I use, and I built a [config-file precompiler](https://git.groovestomp.com/gscfg/tree/) that I've similarly found to be quite useful.<br/>
-Keep an eye on [my git page](https://git.groovestomp.com) for other interesting projects.
+For more in-depth work, see other projects listed there. Of specific note are my [software renderer](https://code.groovestomp.com/software-renderer/tree/) and my [C parser](https://code.groovestomp.com/cparser/tree/).<br/>
+I also have a [personal C library](https://code.groovestomp.com/gslibc/tree) I use, and I built a [config-file precompiler](https://code.groovestomp.com/gscfg/tree/) that I've similarly found to be quite useful.<br/>
+Keep an eye on [my git page](https://code.groovestomp.com) for other interesting projects.
 
 
 ## PGP Public Key
@@ -50,7 +50,7 @@ My public key is available from [pgp.mit.edu](https://pgp.mit.edu)
     <th>Company</th><th>Duration</th><th>Title</th><th>Responsibilities</th><th>Languages and Technologies</th>
   </tr>
   <tr>
-    <td>Mogo</td><td>October 2014 - Present</td><td>Senior Software Developer</td><td>Assist in managing project scope, develop common libraries, implement features, interview potential hires.</td><td>Ruby, RabbitMQ, Docker, Redis, MySQL</td>
+    <td>Mogo</td><td>October 2014 - Present</td><td>Senior Software Developer</td><td>Assist in managing project scope, develop common libraries, implement features, interview potential hires.</td><td>Go, Ruby, RabbitMQ, Docker, Redis, MySQL</td>
   </tr>
   <tr>
     <td>Unbounce</td><td>3.5 Years</td><td>API Lead</td><td>Design, implement and support HTTP API. Integrations with 3rd parties.</td><td>Ruby, Ruby on Rails, Javascript, Java, MySQL</td>
