@@ -149,21 +149,28 @@ a.sidebar-nav-item:focus {
  */
 
 @media (min-width: 48rem) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
-  }
+    .layout-reverse .sidebar {
+        position: absolute;
+        left: auto;
+        right: 0;
+        border-left: 1px solid #a0a0a0;
+        border-right: 1px solid #a0a0a0;
+    }
+    .layout-reverse .content {
+        margin-left: 2rem;
+        margin-right: 20rem;
+    }
 }
 
 @media (min-width: 64rem) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
+    .layout-reverse .content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80ch;
+        background-color: #a0a0a0;
+        border-left: 1px solid #a0a0a0;
+        padding: 0;
+    }
 }
 
 

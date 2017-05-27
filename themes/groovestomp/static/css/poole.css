@@ -43,8 +43,11 @@
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 152ch;
 }
 
 html {
@@ -59,15 +62,15 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  color: #d5d5d5;
+  background-color: #000;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #58bdfd;
   text-decoration: none;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
@@ -81,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: #fff;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -128,9 +131,8 @@ dd {
 hr {
   position: relative;
   margin: 1.5rem 0;
-  border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border: 1px solid #a0a0a0;
+  padding: 0.3ch;
 }
 
 abbr {
@@ -152,8 +154,8 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
+  color: inherit;
+  background-color: #4b4b4b;
   border-radius: 3px;
 }
 pre {
@@ -167,7 +169,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
+  background-color: #4b4b4b;
 }
 pre code {
   padding: 0;
@@ -210,17 +212,17 @@ img {
 table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #a0a0a0;
   border-collapse: collapse;
 }
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #a0a0a0;
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+    background-color: #4b4b4b;
 }
 
 
@@ -246,8 +248,8 @@ tbody tr:nth-child(odd) th {
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
-  color: #717171;
-  background-color: #f9f9f9;
+  color: #fff;
+  background-color: #4b4b4b;
 }
 
 
@@ -302,14 +304,16 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 4em;
+    margin: 0 0 1px 0;
+    padding: 1em 1em 2em 1em;
+    background-color: #3c3c3c;
 }
 
 /* Blog post or page title */
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+    color: #fff;
 }
 .page-title,
 .post-title {

@@ -7,33 +7,37 @@
 
 <div class="content container">
 
-  <h1>{{ .Title }}</h1>
+  <div class="special_container">
 
-  <table>
-    <tr>
-      <th>Title</th>
-      <th>Date</th>
-      <th>Tags</th>
-    </tr>
+    <h1>{{ .Title }}</h1>
 
-    {{ range .Site.Pages }}
-    {{if eq .Type "post" }}
-        <tr>
-          <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-          <td>{{ dateFormat "2006-01-02" .Date }}</td>
-          <td>
-            {{ with .Params.tags }}
-              {{ delimit . ", " }}
-            {{ end }}
-          </td>
-        </tr>
-        {{ end }}
-    {{ end }}
-  </table>
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Date</th>
+        <th>Tags</th>
+      </tr>
 
-  <hr />
+      {{ range .Site.Pages }}
+      {{if eq .Type "post" }}
+      <tr>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td>{{ dateFormat "2006-01-02" .Date }}</td>
+        <td>
+          {{ with .Params.tags }}
+          {{ delimit . ", " }}
+          {{ end }}
+        </td>
+      </tr>
+      {{ end }}
+      {{ end }}
+    </table>
 
-  {{ .Content }}
+    <hr />
+
+    {{ .Content }}
+
+  </div>
 
 </div>
 

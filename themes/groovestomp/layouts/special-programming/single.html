@@ -7,25 +7,29 @@
 
 <div class="content container">
 
-  <h1>{{ .Title }}</h1>
+  <div class="special_container">
 
-  <table>
-    <tr>
-      <th>Title</th>
-      <th>Date</th>
-    </tr>
+    <h1>{{ .Title }}</h1>
 
-    {{ range .Site.Taxonomies.tags.programming }}
-        <tr>
-          <td><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></td>
-          <td>{{ dateFormat "2006-01-02" .Page.Date }}</td>
-        </tr>
-    {{ end }}
-  </table>
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Date</th>
+      </tr>
 
-  <hr />
+      {{ range .Site.Taxonomies.tags.programming }}
+      <tr>
+        <td><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></td>
+        <td>{{ dateFormat "2006-01-02" .Page.Date }}</td>
+      </tr>
+      {{ end }}
+    </table>
 
-  {{ .Content }}
+    <hr />
+
+    {{ .Content }}
+
+  </div>
 
 </div>
 

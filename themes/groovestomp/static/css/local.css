@@ -3,6 +3,10 @@ html {
   font-size: 16px;
 }
 
+.layout-reverse {
+    position: relative;
+}
+
 .content {
   max-width: 120rem;
 }
@@ -12,7 +16,7 @@ html {
 }
 
 .sidebar-nav-item strong {
-  color: #5c5c5c;
+  color: #fff;
   font-size: 1.5em;
 }
 
@@ -21,6 +25,12 @@ html {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.special_container {
+    margin: 0 0 1px 0;
+    padding: 1em 1em 1em 1em;
+    background-color: #3c3c3c;
 }
 
 h1.sidebar-title {

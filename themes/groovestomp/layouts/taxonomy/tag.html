@@ -7,27 +7,31 @@
 
 <div class="content container">
 
-  {{ $currentTag := lower .Title }}
-  <h1>{{ .Title }}</h1>
+  <div class="special_container">
 
-  <table>
-    <tr>
-      <th>Title</th>
-      <th>Date</th>
-    </tr>
+    {{ $currentTag := lower .Title }}
+    <h1>{{ .Title }}</h1>
 
-    {{ range $key, $taxonomy := .Site.Taxonomies.tags }}
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Date</th>
+      </tr>
+
+      {{ range $key, $taxonomy := .Site.Taxonomies.tags }}
       {{ if eq $currentTag $key }}
-        {{ range $taxonomy.Pages }}
-          <tr>
-            <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-            <td>{{ dateFormat "2006-01-02" .Date }}</td>
-          </tr>
-        {{ end }}
+      {{ range $taxonomy.Pages }}
+      <tr>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td>{{ dateFormat "2006-01-02" .Date }}</td>
+      </tr>
       {{ end }}
-    {{ end }}
+      {{ end }}
+      {{ end }}
 
-  </table>
+    </table>
+
+  </div>
 
 </div>
 
