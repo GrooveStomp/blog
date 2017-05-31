@@ -1,44 +1,60 @@
 {{ partial "header.html" . }}
+<body>
 
-<body class="layout-reverse">
+  <table class="content-container">
+    <tr>
+      <td class="mobile-header">
+        {{ partial "mobile_header.html" . }}
+      </td>
+      <td class="hidden" />
+    <tr/>
+    <tr>
+      <td class="mobile-menu sidebar" id="mobile-menu">
+        {{ partial "sidebar.html" . }}
+      </td>
+      <td class="hidden" />
+    </tr>
+    <tr>
+      <td class="content">
 
-{{ partial "mobile_header.html" . }}
-{{ partial "sidebar.html" . }}
+        <div class="post">
 
-<div class="content container">
+          <h1>{{ .Title }}</h1>
 
-  <div class="special_container">
+          <table>
+            <tr>
+              <th>Title</th>
+              <th>Date</th>
+              <th>Tags</th>
+            </tr>
 
-    <h1>{{ .Title }}</h1>
+            {{ range .Site.Pages }}
+            {{if eq .Type "post" }}
+            <tr>
+              <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+              <td>{{ dateFormat "2006-01-02" .Date }}</td>
+              <td>
+                {{ with .Params.tags }}
+                {{ delimit . ", " }}
+                {{ end }}
+              </td>
+            </tr>
+            {{ end }}
+            {{ end }}
+          </table>
 
-    <table>
-      <tr>
-        <th>Title</th>
-        <th>Date</th>
-        <th>Tags</th>
-      </tr>
+          <hr />
 
-      {{ range .Site.Pages }}
-      {{if eq .Type "post" }}
-      <tr>
-        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-        <td>{{ dateFormat "2006-01-02" .Date }}</td>
-        <td>
-          {{ with .Params.tags }}
-          {{ delimit . ", " }}
-          {{ end }}
-        </td>
-      </tr>
-      {{ end }}
-      {{ end }}
-    </table>
+          {{ .Content }}
 
-    <hr />
+        </div>
 
-    {{ .Content }}
+      </td>
+      <td class="sidebar" rowspan="2">
+        {{ partial "sidebar.html" . }}
+      </td>
+    </tr>
+  </table>
 
-  </div>
-
-</div>
-
+</body>
 {{ partial "footer.html" . }}

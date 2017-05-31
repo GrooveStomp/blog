@@ -1,17 +1,31 @@
 {{ partial "header.html" . }}
+<body>
 
-<body class="layout-reverse">
+  <table class="content-container">
+    <tr>
+      <td class="mobile-header">
+        {{ partial "mobile_header.html" . }}
+      </td>
+      <td class="hidden" />
+    <tr/>
+    <tr>
+      <td class="mobile-menu sidebar" id="mobile-menu">
+        {{ partial "sidebar.html" . }}
+      </td>
+      <td class="hidden" />
+    </tr>
+    <tr>
+      <td class="content">
+        <div class="post">
+          <h1 class="post-title">{{ .Title }}</h1>
+          {{ .Content }}
+        </div>
+      </td>
+      <td class="sidebar" rowspan="2">
+        {{ partial "sidebar.html" . }}
+      </td>
+    </tr>
+  </table>
 
-{{ partial "mobile_header.html" . }}
-{{ partial "sidebar.html" . }}
-
-<div class="content container">
-
-  <div class="page">
-    <h1 class="page-title">{{ .Title }}</h1>
-    {{ .Content }}
-  </div>
-
-</div>
-
+</body>
 {{ partial "footer.html" . }}

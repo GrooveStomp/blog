@@ -1,11 +1,13 @@
-<div class="pagination">
-  {{ if .HasNext }}
-  {{ $older := add .PageNumber 1 }}
-  <a class="pagination-item older" href="/page/{{ $older }}">Older</a>
-  {{ end }}
+<tr>
+  <td class="pagination">
+    {{ if .HasNext }}
+    {{ $older := add .PageNumber 1 }}
+    <a class="pagination-item older" href="/page/{{ $older }}">Older</a>
+    {{ end }}
 
-  {{ if not (eq .PageNumber 1) }}
-  {{ $newer := sub .PageNumber 1 }}
-  <a class="pagination-item newer" href="/page/{{ $newer }}/">Newer</a>
-  {{ end }}
-</div>
+    {{ if not (eq .PageNumber 1) }}
+    {{ $newer := sub .PageNumber 1 }}
+    <a class="pagination-item newer" href="/page/{{ $newer }}/">Newer</a>
+    {{ end }}
+  </td>
+</tr>

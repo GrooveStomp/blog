@@ -1,36 +1,51 @@
 {{ partial "header.html" . }}
+<body>
 
-<body class="layout-reverse">
+  <table class="content-container">
+    <tr>
+      <td class="mobile-header">
+        {{ partial "mobile_header.html" . }}
+      </td>
+      <td class="hidden" />
+    <tr/>
+    <tr>
+      <td class="mobile-menu sidebar" id="mobile-menu">
+        {{ partial "sidebar.html" . }}
+      </td>
+      <td class="hidden" />
+    </tr>
+    <tr>
+      <td class="content">
 
-{{ partial "mobile_header.html" . }}
-{{ partial "sidebar.html" . }}
+        <div class="post">
+          <h1>{{ .Title }}</h1>
 
-<div class="content container">
+          <table>
+            <tr>
+              <th>Title</th>
+              <th>Date</th>
+            </tr>
 
-  <div class="special_container">
+            {{ range .Site.Taxonomies.tags.programming }}
+            <tr>
+              <td><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></td>
+              <td>{{ dateFormat "2006-01-02" .Page.Date }}</td>
+            </tr>
+            {{ end }}
+          </table>
 
-    <h1>{{ .Title }}</h1>
+          <br />
+          <hr />
 
-    <table>
-      <tr>
-        <th>Title</th>
-        <th>Date</th>
-      </tr>
+          {{ .Content }}
+        </div>
 
-      {{ range .Site.Taxonomies.tags.programming }}
-      <tr>
-        <td><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></td>
-        <td>{{ dateFormat "2006-01-02" .Page.Date }}</td>
-      </tr>
-      {{ end }}
-    </table>
+      </td>
+      <td class="sidebar" rowspan="2">
+        {{ partial "sidebar.html" . }}
+      </td>
+    </tr>
+  </table>
 
-    <hr />
-
-    {{ .Content }}
-
-  </div>
-
-</div>
-
+</body>
 {{ partial "footer.html" . }}

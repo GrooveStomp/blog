@@ -1,38 +1,52 @@
 {{ partial "header.html" . }}
+<body>
 
-<body class="layout-reverse">
+  <table class="content-container">
+    <tr>
+      <td class="mobile-header">
+        {{ partial "mobile_header.html" . }}
+      </td>
+      <td class="hidden" />
+    <tr/>
+    <tr>
+      <td class="mobile-menu sidebar" id="mobile-menu">
+        {{ partial "sidebar.html" . }}
+      </td>
+      <td class="hidden" />
+    </tr>
+    <tr>
+      <td class="content">
 
-{{ partial "mobile_header.html" . }}
-{{ partial "sidebar.html" . }}
+        <div class="post">
+          {{ $currentTag := lower .Title }}
+          <h1>{{ .Title }}</h1>
 
-<div class="content container">
+          <table>
+            <tr>
+              <th>Title</th>
+              <th>Date</th>
+            </tr>
 
-  <div class="special_container">
+            {{ range $key, $taxonomy := .Site.Taxonomies.tags }}
+            {{ if eq $currentTag $key }}
+            {{ range $taxonomy.Pages }}
+            <tr>
+              <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+              <td>{{ dateFormat "2006-01-02" .Date }}</td>
+            </tr>
+            {{ end }}
+            {{ end }}
+            {{ end }}
 
-    {{ $currentTag := lower .Title }}
-    <h1>{{ .Title }}</h1>
+          </table>
+        </div>
 
-    <table>
-      <tr>
-        <th>Title</th>
-        <th>Date</th>
-      </tr>
+      </td>
+      <td class="sidebar" rowspan="2">
+        {{ partial "sidebar.html" . }}
+      </td>
+    </tr>
+  </table>
 
-      {{ range $key, $taxonomy := .Site.Taxonomies.tags }}
-      {{ if eq $currentTag $key }}
-      {{ range $taxonomy.Pages }}
-      <tr>
-        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-        <td>{{ dateFormat "2006-01-02" .Date }}</td>
-      </tr>
-      {{ end }}
-      {{ end }}
-      {{ end }}
-
-    </table>
-
-  </div>
-
-</div>
-
+</body>
 {{ partial "footer.html" . }}

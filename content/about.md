@@ -3,7 +3,7 @@ title: About
 type: page
 ---
 
-<img src="/profile.jpg" alt="Profile" />
+<img src="/profile.jpg" alt="Profile" id="profile" />
 
 <div class="message">
   Hi, I'm Aaron Oman.  My online handle is GrooveStomp.

@@ -1,24 +1,39 @@
 {{ partial "header.html" . }}
+<body>
 
-<body class="layout-reverse">
+  <table class="content-container">
+    <tr>
+      <td class="mobile-header">
+        {{ partial "mobile_header.html" . }}
+      </td>
+      <td class="hidden" />
+    <tr/>
+    <tr>
+      <td class="mobile-menu sidebar" id="mobile-menu">
+        {{ partial "sidebar.html" . }}
+      </td>
+      <td class="hidden" />
+    </tr>
+    <tr>
+      <td class="content">
+        {{ range .Data.Pages }}
 
-{{ partial "mobile_header.html" . }}
-{{ partial "sidebar.html" . }}
+        <div class="post">
+          <a href="{{ .Permalink }}">
+            <h1 class="post-title">{{ .Title }}</h1>
+          </a>
+          <span class="post-date">{{ dateFormat "2006-01-02" .Date }}</span>
+          {{ .Content }}
+        </div>
 
-<div class="content container">
+        {{ end }}
+      </td>
+      <td class="sidebar" rowspan="2">
+        {{ partial "sidebar.html" . }}
+      </td>
+    </tr>
+    {{ partial "paginator.html" $paginator }}
+  </table>
 
-  {{ range .Data.Pages }}
-
-  <div class="post">
-    <a href="{{ .Permalink }}">
-      <h1 class="post-title">{{ .Title }}</h1>
-    </a>
-    <span class="post-date">{{ dateFormat "2006-01-02" .Date }}</span>
-    {{ .Content }}
-  </div>
-
-  {{ end }}
-
-</div>
-
+</body>
 {{ partial "footer.html" . }}
