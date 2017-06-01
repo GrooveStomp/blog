@@ -195,6 +195,18 @@ table.content-container {
     margin: 0;
 }
 
+@media screen and (max-width: 800px) {
+    .post table {
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    .post table, .post table td, .post table th {
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+}
+
 .post table tr:nth-child(even) {
     background-color: #4d4d4d;
 }
