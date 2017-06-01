@@ -185,7 +185,8 @@ table.content-container {
     margin: 0;
     padding: 1em;
     white-space: pre-wrap;
-    word-wrap: break-work;
+    word-wrap: break-word;
+    word-break: break-word;
 }
 
 .post table {
@@ -203,6 +204,7 @@ table.content-container {
 
     .post table, .post table td, .post table th {
         word-wrap: break-word;
+        word-break: break-word;
         overflow: hidden;
     }
 }
