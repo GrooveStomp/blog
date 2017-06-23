@@ -28,6 +28,25 @@
         {{ partial "sidebar.html" . }}
       </td>
     </tr>
+
+    <tr class="post-next-prev">
+      <td>
+        <table class="single-pagination">
+          <tr>
+            <td>
+              {{ if .Next }}
+              <a class="" href="{{ .Next.Permalink }}">Older</a>
+            </td>
+            {{ end }}
+            {{ if .Prev }}
+            <td>
+              <a class="" href="{{ .Prev.Permalink }}/">Newer</a>
+            </td>
+            {{ end }}
+          </tr>
+        </table>
+      </td>
+    </tr>
   </table>
 
 </body>

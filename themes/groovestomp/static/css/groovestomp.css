@@ -22,6 +22,7 @@ table.content-container {
     padding: 0;
     border: 0;
     border-collapse: collapse;
+    border-left: 1px solid #a0a0a0;
 }
 
 .content-container tr {
@@ -40,7 +41,7 @@ table.content-container {
 .content {
     border-top: 0;
     border-bottom: 0;
-    border-left: 1px solid #a0a0a0;
+    border-left: 0;
     border-right: 1px solid #a0a0a0;
     padding: 0;
     margin: 0;
@@ -158,6 +159,16 @@ table.content-container {
     float: right;
 }
 
+table.nav-buttons {
+    padding: 0;
+    margin: 0;
+}
+table.nav-buttons td {
+    width: 50%;
+    border: 1px solid #a0a0a0;
+    border-collapse: collapse;
+}
+
 @media (min-width: 800px) {
     .mobile-header, .mobile-menu {
         display: none;
@@ -233,6 +244,57 @@ table td.pagination {
 }
 
 .pagination a:hover {
+    background-color: #4d4d4d;
+    text-decoration: none;
+}
+
+tr.post-next-prev {
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+
+tr.post-next-prev td {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #a0a0a0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.post-next-prev table {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background: #202020;
+    border-collapse: collapse;
+    border: 1px solid #a0a0a0;
+}
+
+.post-next-prev table td {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    cell-border: 1 px solid #a0a0a0;
+}
+
+.post-next-prev table td:nth-child(odd) {
+    border-right: 1px solid #a0a0a0;
+}
+
+.post-next-prev table td a {
+    display: block;
+    width: 100%;
+    padding: 0.5em 0;
+    margin: 0;
+    background-color: #3c3c3c;
+}
+
+.post-next-prev table td a:hover {
+    text-decoration: none;
     background-color: #4d4d4d;
     text-decoration: none;
 }
