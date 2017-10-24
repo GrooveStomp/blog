@@ -3,8 +3,6 @@ title: About
 type: page
 ---
 
-<img src="/profile.jpg" alt="Profile" id="profile" />
-
 <div class="message">
   Hi, I'm Aaron Oman.  My online handle is GrooveStomp.
 </div>
@@ -44,7 +42,8 @@ page](https://code.groovestomp.com) for other interesting projects.
 
 |Company         |Duration              |Title                    |Responsibilities|Languages and Technologies|
 |----------------|----------------------|-------------------------|----------------|--------------------------|
-|Mogo            |October 2014 - Present|Senior Software Developer|Assist in managing project scope, develop common libraries, implement features, interview potential hires.|Go, Ruby, RabbitMQ, Docker, Redis, MySQL|
+|Lendesk         |August 2017 - Present |Senior Software Developer|Application development.|Ruby on Rails|
+|Mogo            |2.8 Years             |Senior Software Developer|Assist in managing project scope, develop common libraries, implement features, interview potential hires.|Go, Ruby, RabbitMQ, Docker, Redis, MySQL|
 |Unbounce        |3.5 Years             |API Lead                 |Design, implement and support HTTP API. Integrations with 3rd parties.|Ruby, Ruby on Rails, Javascript, Java, MySQL|
 |Gossamer Threads|2.5 Years             |Programmer               |In-house forum and website software customizations for clients.|Perl, PHP, MySQL|
 |Electronic Arts |3.5 Years             |Software Engineer        |3d pipeline maintenance, gameplay prototyping, audio programming, animation programming, front-end programming.|C++, C#, ActionScript, Maya|
