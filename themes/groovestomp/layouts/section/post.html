@@ -3,7 +3,6 @@
   {{ partial "mobile_header.html" . }}
   <div id="content-wrapper">
     {{ range .Data.Pages }}
-
     <div class="post">
       <a href="{{ .Permalink }}">
         <h1 class="post-title">{{ .Title }}</h1>
@@ -11,6 +10,7 @@
       <span class="post-date">{{ dateFormat "2006-01-02" .Date }}</span>
       {{ .Content }}
     </div>
+    {{ end }}
   </div>
   <div id="navbar-wrapper">
     <div id="navbar">
