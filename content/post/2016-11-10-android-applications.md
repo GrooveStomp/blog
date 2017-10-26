@@ -7,6 +7,7 @@ I've been getting frustrated with my computing experiences lately. I won't go in
 
 Provided for your benefit here is a list of several Android programs I've recently discovered. I'm not vouching for these yet, and may not even have much experience with them yet, but they are here and may serve you well.
 
+{{% horizontal_scroll %}}
 |Name|Description|On F-Droid?|
 |----|----|----|
 |Syncthing|P2P File Syncing|Yes|
@@ -48,3 +49,4 @@ Provided for your benefit here is a list of several Android programs I've recent
 |Private Internet Access|VPN|No|
 |Protonmail|Email|No|
 |Signal|Messaging|No|
+{{% /horizontal_scroll %}}

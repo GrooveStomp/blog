@@ -1,38 +1,21 @@
 {{ partial "header.html" . }}
 <body>
-
-  <table class="content-container">
-    <tr>
-      <td class="mobile-header">
-        {{ partial "mobile_header.html" . }}
-      </td>
-      <td class="hidden" />
-    <tr/>
-    <tr>
-      <td class="mobile-menu sidebar" id="mobile-menu">
-        {{ partial "sidebar.html" . }}
-      </td>
-      <td class="hidden" />
-    </tr>
-    <tr>
-      <td class="content">
-
-        {{ $paginator := (.Paginate (where .Site.Pages "Type" "post")) }}
-        {{ range $paginator.Pages }}
-        <div class="post">
-          <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-          <span class="post-date">{{ dateFormat "2006-01-02" .Date }}</span>
-          {{ .Content }}
-        </div>
-        {{ end }}
-
-      </td>
-      <td class="sidebar" rowspan="2">
-        {{ partial "sidebar.html" . }}
-      </td>
-    </tr>
+  {{ partial "mobile_header.html" . }}
+  <div id="content-wrapper">
+    {{ $paginator := (.Paginate (where .Site.Pages "Type" "post")) }}
+    {{ range $paginator.Pages }}
+    <div class="post">
+      <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+      <span class="post-date">{{ dateFormat "2006-01-02" .Date }}</span>
+      {{ .Content }}
+    </div>
+    {{ end }}
     {{ partial "paginator.html" $paginator }}
-  </table>
-
+  </div>
+  <div id="navbar-wrapper">
+    <div id="navbar">
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
 </body>
 {{ partial "footer.html" . }}

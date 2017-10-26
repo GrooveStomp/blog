@@ -1,6 +1,6 @@
 <img id="profile" src="/groovestomp_icon.jpg" alt="GrooveStomp Profile Picture" />
 <ul>
-  <li class="title">{{ .Site.Title }}</li>
+  <li class="title"><a href="/">{{ .Site.Title }}</a></li>
   <li class="{{ if eq .Title "GrooveStomp" }} active{{ end }}"><a href="/">Latest</a></li>
   <li class="{{ if eq .Title "About" }} active{{ end }}"><a href="/about/">About</a></li>
   <li class="{{ if eq .Title "All Posts" }} active{{ end }}"><a href="/all_posts/">All Posts</a></li>

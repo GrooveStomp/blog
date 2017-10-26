@@ -40,6 +40,8 @@ page](https://code.groovestomp.com) for other interesting projects.
 
 ## Professional Summary
 
+{{% horizontal_scroll %}}
+
 |Company         |Duration              |Title                    |Responsibilities|Languages and Technologies|
 |----------------|----------------------|-------------------------|----------------|--------------------------|
 |Lendesk         |August 2017 - Present |Senior Software Developer|Application development.|Ruby on Rails|
@@ -47,3 +49,5 @@ page](https://code.groovestomp.com) for other interesting projects.
 |Unbounce        |3.5 Years             |API Lead                 |Design, implement and support HTTP API. Integrations with 3rd parties.|Ruby, Ruby on Rails, Javascript, Java, MySQL|
 |Gossamer Threads|2.5 Years             |Programmer               |In-house forum and website software customizations for clients.|Perl, PHP, MySQL|
 |Electronic Arts |3.5 Years             |Software Engineer        |3d pipeline maintenance, gameplay prototyping, audio programming, animation programming, front-end programming.|C++, C#, ActionScript, Maya|
+
+{{% /horizontal_scroll %}}

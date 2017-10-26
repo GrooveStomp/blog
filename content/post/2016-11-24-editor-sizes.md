@@ -29,6 +29,7 @@ Pay attention to the suffix because there are many orders of magnitude differenc
 
 In no particular order:
 
+{{% horizontal_scroll %}}
 |Editor Name|Resident Memory Size|GUI or TUI|Additional Information|
 |-----------|--------------------|----------|----------------------|
 |emacs|57.99 MB|GUI|No local settings files|
@@ -47,9 +48,10 @@ In no particular order:
 |TextAdept|6.58 MB|TUI||
 |jupp|3.37 MB|TUI|https://www.mirbsd.org/jupp.htm|
 |mg|1.03 KB|TUI|Micro GNU/emacs, this is a portable version of the mg maintained by the OpenBSD team.|
+{{% /horizontal_scroll %}}
 
 NOTE: TUI means Textual UI and you'll often see "curses", "cli", "console" or "terminal" used to mean the same thing.
 
-Don't take these records as gospel; I've noticed differences on subsequent captures of various programs.  Without a doubt each editor will perform differently depending on the specific file and how the editor represents said file in memory.  Also, I generally don't have a good understanding of Linux memory, so there are lots of ways these numbers could be non-representative.  As a ballpark estimate, however, I suspect these numbers should suffice. 
+Don't take these records as gospel; I've noticed differences on subsequent captures of various programs.  Without a doubt each editor will perform differently depending on the specific file and how the editor represents said file in memory.  Also, I generally don't have a good understanding of Linux memory, so there are lots of ways these numbers could be non-representative.  As a ballpark estimate, however, I suspect these numbers should suffice.
 
 If you liked this, you might enjoy [A Memory Comparison of Light Linux Desktops](https://l3net.wordpress.com/2013/03/17/a-memory-comparison-of-light-linux-desktops/)

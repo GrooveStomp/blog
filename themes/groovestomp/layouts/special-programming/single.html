@@ -1,51 +1,30 @@
 {{ partial "header.html" . }}
 <body>
-
-  <table class="content-container">
-    <tr>
-      <td class="mobile-header">
-        {{ partial "mobile_header.html" . }}
-      </td>
-      <td class="hidden" />
-    <tr/>
-    <tr>
-      <td class="mobile-menu sidebar" id="mobile-menu">
-        {{ partial "sidebar.html" . }}
-      </td>
-      <td class="hidden" />
-    </tr>
-    <tr>
-      <td class="content">
-
-        <div class="post">
-          <h1>{{ .Title }}</h1>
-
-          <table>
-            <tr>
-              <th>Title</th>
-              <th>Date</th>
-            </tr>
-
-            {{ range .Site.Taxonomies.tags.programming }}
-            <tr>
-              <td><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></td>
-              <td>{{ dateFormat "2006-01-02" .Page.Date }}</td>
-            </tr>
-            {{ end }}
-          </table>
-
-          <br />
-          <hr />
-
-          {{ .Content }}
-        </div>
-
-      </td>
-      <td class="sidebar" rowspan="2">
-        {{ partial "sidebar.html" . }}
-      </td>
-    </tr>
-  </table>
-
+  {{ partial "mobile_header.html" . }}
+  <div id="content-wrapper">
+    <div class="post">
+      <h1>{{ .Title }}</h1>
+      <table>
+        <tr>
+          <th>Title</th>
+          <th>Date</th>
+        </tr>
+        {{ range .Site.Taxonomies.tags.programming }}
+        <tr>
+          <td><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></td>
+          <td>{{ dateFormat "2006-01-02" .Page.Date }}</td>
+        </tr>
+        {{ end }}
+      </table>
+      <br />
+      <hr />
+      {{ .Content }}
+    </div>
+  </div>
+  <div id="navbar-wrapper">
+    <div id="navbar">
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
 </body>
 {{ partial "footer.html" . }}

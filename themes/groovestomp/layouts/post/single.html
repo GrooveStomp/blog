@@ -1,53 +1,26 @@
 {{ partial "header.html" . }}
 <body>
+  {{ partial "mobile_header.html" . }}
+  <div id="content-wrapper">
+    <div class="post">
+      <h1 class="post-title">{{ .Title }}</h1>
+      <span class="post-date">{{ dateFormat "2006-01-02" .Date }}</span>
+      {{ .Content }}
+    </div>
 
-  <table class="content-container">
-    <tr>
-      <td class="mobile-header">
-        {{ partial "mobile_header.html" . }}
-      </td>
-      <td class="hidden" />
-    <tr/>
-    <tr>
-      <td class="mobile-menu sidebar" id="mobile-menu">
-        {{ partial "sidebar.html" . }}
-      </td>
-      <td class="hidden" />
-    </tr>
-    <tr>
-      <td class="content">
-
-        <div class="post">
-          <h1 class="post-title">{{ .Title }}</h1>
-          <span class="post-date">{{ dateFormat "2006-01-02" .Date }}</span>
-          {{ .Content }}
-        </div>
-
-      </td>
-      <td class="sidebar" rowspan="2">
-        {{ partial "sidebar.html" . }}
-      </td>
-    </tr>
-
-    <tr class="post-next-prev">
-      <td>
-        <table class="single-pagination">
-          <tr>
-            <td>
-              {{ if .Next }}
-              <a class="" href="{{ .Next.Permalink }}">Older</a>
-            </td>
-            {{ end }}
-            {{ if .Prev }}
-            <td>
-              <a class="" href="{{ .Prev.Permalink }}/">Newer</a>
-            </td>
-            {{ end }}
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-
+    <div id="pagination">
+      {{ if .Next }}
+      <a href="{{ .Next.Permalink }}">Older</a>
+      {{ end }}
+      {{ if .Prev }}
+      <a href="{{ .Prev.Permalink }}/">Newer</a>
+      {{ end }}
+    </div>
+  </div>
+  <div id="navbar-wrapper">
+    <div id="navbar">
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
 </body>
 {{ partial "footer.html" . }}

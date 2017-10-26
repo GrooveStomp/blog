@@ -5,7 +5,9 @@ title: "RFTG - First Win!"
 tags: [boardgaming, rftg]
 ---
 
+{{< horizontal_scroll >}}
 <a href="https://imgur.com/pq1740O"><img class=" aligncenter" src="https://i.imgur.com/pq1740Ol.png" alt="" width="640" height="389" /></a>
+{{< /horizontal_scroll >}}
 
 &nbsp;
 
