@@ -30,7 +30,7 @@ I am an avid fan of computing history and love learning about computers,
 operating systems, networking, computer graphics and videogames.
 
 My current hobby is weight training and nutrition.  I've added 80lbs to my bench
-press squat and 40lbs to my bench press in the past 8 months.  I've lost 10lbs
+press in the past 8 months.  I've lost 10lbs
 and have gone through significant body recomposition.
 
 I also enjoy programming.  These days the majority of my programming is probably
