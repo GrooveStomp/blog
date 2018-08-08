@@ -13,7 +13,8 @@ type: page
 
 |Company         |Duration              |Title                    |Responsibilities|Languages and Technologies|
 |----------------|----------------------|-------------------------|----------------|--------------------------|
-|Lendesk         |August 2017 - Present |Senior Software Developer|Application development.|Ruby on Rails, Go, Redis, PostgreSQL|
+|Lendesk         |Apr 2018 - Present    |Team Lead                |1:1s, sprint planning, ticket grooming, team management, cross-team coordination, code reviews, hiring interviews, process improvement, bug fixes, addressing technical debt, improve system architecture.|Ruby on Rails, Go, Redis, PostgreSQL|
+|Lendesk         |Aug 2017 - Apr 2018   |Senior Software Developer|Application development.|Ruby on Rails, Go, Redis, PostgreSQL|
 |Mogo            |2.8 Years             |Senior Software Developer|Assist in managing project scope, develop common libraries, implement features, interview potential hires.|Go, Ruby, RabbitMQ, Docker, Redis, MySQL|
 |Unbounce        |3.5 Years             |API Lead                 |Design, implement and support HTTP API. Integrations with 3rd parties.|Ruby, Ruby on Rails, Javascript, Java, MySQL|
 |Gossamer Threads|2.5 Years             |Programmer               |In-house forum and website software customizations for clients.|Perl, PHP, MySQL|
@@ -40,31 +41,31 @@ sometimes for hobby purposes, and some variant of plain C for personal projects;
 often C99.
 
 ## Programming Projects
-- [Daily Programming Practice](https://code.groovestomp.com/practice/tree/)  
+- [Daily Programming Practice](https://code.groovestomp.com/practice/tree/)
   After the first HandmadeCon I was motivated to try a little dabble of
   programming every day.  I have long since stopped doing that, but I still use
   that repo to explore new projects on occasion.
 
-- [Software Renderer](https://code.groovestomp.com/software-renderer/tree/)  
+- [Software Renderer](https://code.groovestomp.com/software-renderer/tree/)
   I decided to do a "clean-room" implementation of a software renderer to
   replicate what it might have been like as a graphics/game programmer in the
   early/mid 1990s.
 
-- [C Parser](https://code.groovestomp.com/cparser/tree/)  
+- [C Parser](https://code.groovestomp.com/cparser/tree/)
   HandmadeHero and The Jeff and Casey Show motivated me to start exploring
   making my own language and development tools.  This is the first bit of that
   exploration.  I decided to start designing a new language based on a
   foundation of C.  This is my hand-written recursive-descent parser written in
   C.
 
-- [Personal C Library](https://code.groovestomp.com/gslibc/tree)  
+- [Personal C Library](https://code.groovestomp.com/gslibc/tree)
   I started doing a lot more hobby programming in C.  C has a really weak
   standard library, so you always end up rolling your own.  This is intended to
   be along the lines of [gingerBill's
   libraries](https://github.com/gingerBill/gb) or the [stb
   libraries](https://github.com/nothings/stb).
 
-- [Config-file Precompiler](https://code.groovestomp.com/gscfg/tree/)  
+- [Config-file Precompiler](https://code.groovestomp.com/gscfg/tree/)
   For one project I really wanted to have a yaml-style configuration file but
   not have to do dynamic memory allocations or runtime parsing of the config
   file to use the data.  My solution was to build a precompiler which generates
@@ -75,18 +76,18 @@ See more at [code.groovestomp.com](https://code.groovestomp.com).
 {{% horizontal_scroll %}}
 | Date | Accomplishment / Event |
 |------|----------------|
-| 2017 | Joined Lendesk |
+| 2018 | Promoted to Team Lead at Lendesk |
+| 2017 | Joined Lendesk as a Senior Software Developer (Ruby/Go) |
 | 2016 | Started programming in Go |
 | 2015 | Started programming in C (primarily C99) |
-| 2014 | Joined Mogo |
-| 2012 | Started programming in Ruby |
-| 2011 | Joined Unbounce|
-| 2010 | Joined EA |
-| 2007 | Joined Gossamer Threads |
+| 2014 | Joined Mogo as a Senior Software Developer (Ruby) |
+| 2011 | Joined Unbounce as the first employee (Ruby) |
+| 2010 | Joined EA as a junior front-end software developer (ActionScript) |
+| 2007 | Joined Gossamer Threads as a full stack web developer (Perl/Javascript) |
 | 2007 | Started programming in Perl |
 | 2007 | Started using GNU/Linux for development and minor system administration |
-| 2005 | Joined EA |
-| 2005 | Earned Bachelor's Degree in  Computer Science |
+| 2005 | Joined EA as a junior software developer (C++) |
+| 2005 | Earned Bachelor's Degree in Computer Science |
 | 2000 | Started programming in C++ |
 | 1998 | Started programming in Pascal and using HTML/Javascript |
 
