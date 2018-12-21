@@ -1,7 +1,7 @@
 html {
     font-family: 'Source Sans Pro', 'Geneva', 'Roboto', 'Liberation Sans', 'MS Sans Serif';
 }
-
+/* Mobile view */
 @media only screen and (min-width: 0px) {
     body {
         width: 100%;
@@ -16,6 +16,7 @@ html {
         display: none;
     }
 }
+/* Non-mobile small resolution view */
 @media only screen and (min-width: 800px) {
     body {
         width: 100%;
@@ -23,19 +24,20 @@ html {
         display: flex;
     }
     #content-wrapper {
-        width: 75%;
+        width: 80%;
     }
     #navbar-wrapper {
-        width: 25%;
+        width: 20%;
         display: block;
     }
     #mobile-header, #mobile-menu {
         display: none;
     }
 }
-@media only screen and (min-width: 1158px) {
+/* Full desktop view */
+@media only screen and (min-width: 1280px) {
     body {
-        width: 55%;
+        width: 70%;
         margin: 0 auto;
         display: flex;
     }
