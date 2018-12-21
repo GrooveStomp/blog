@@ -231,6 +231,12 @@ table.nav-buttons td {
     color: #d5d5d5;
 }
 
+.post blockquote {
+    background-color: #4d4d4d;
+    padding: 1em 2em;
+    margin: 0;
+}
+
 .horizontal-scroll {
     overflow-x: scroll;
     min-width: 100%;
