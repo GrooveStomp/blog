@@ -2,7 +2,7 @@
 date: 2018-12-07
 url: /2018/12/07/qemu-riscv/
 title: "qemu and RISC-V"
-tags: [hardware, emulation, linux]
+tags: [qemu, emulation, riscv]
 ---
 
 It's been a long time since I've posted here.  So what's up?
