@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+<div id="content-container">
+  <h1>Posts Tagged "{{ .Title }}"</h1>
+  <table>
+    <tr>
+      <th>Page</th>
+      <th>Date</th>
+    </tr>
+    {{ range .Data.Pages }}
+    <tr>
+      <td><a href="{{ .RelPermalink }}">{{ .Name }}</a></td>
+      <td>{{ dateFormat "2006-01-02" .Date }}</td>
+    </tr>
+    {{ end }}
+  </table>
+</div>
+{{ partial "footer.html" . }}

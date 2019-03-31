@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+<div id="content-container">
+  <table>
+    <tr>
+      <th>{{ humanize .Data.Singular }}</th>
+      <th>Count</th>
+    </tr>
+    {{ range $key, $value := .Data.Terms.Alphabetical }}
+    <tr>
+      <td><a href="/tags/{{ .Name}}">{{ .Name }}</a></td>
+      <td>{{ .Count }}</td>
+    </tr>
+    {{ end }}
+  </table>
+</div>
+{{ partial "footer.html" . }}

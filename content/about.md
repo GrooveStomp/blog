@@ -3,9 +3,98 @@ title: About
 type: page
 ---
 
-<div class="message">
-  Hi, I'm Aaron Oman.  My online handle is GrooveStomp.
-</div>
+I write cloud applications and developer tools.  I entered the industry due to
+my enthusiasm for computer games and 3d graphics.  These days I'm writing server
+side applications in high level scripting languages and the tools to assist in
+maintaining them.
+
+I have been a programming language enthusiast, having played with:
+(* indicates I have been compensated for it.)
+
+- ActionScript*
+- Bash
+- C
+- C++*
+- Clojure*
+- Common Lisp
+- Emacs Lisp
+- Factor
+- Go*
+- Haskell*
+- Java*
+- Javascript*
+- Lua
+- PHP*
+- Perl*
+- Prolog
+- Python
+- Ruby*
+- Rust
+- Scala*
+- SQL*
+- Scheme
+- Vimscript
+
+I would summarize my thoughts as:
+
+- I wish I could use Haskell all the time.
+- I will use C for things where I must (ie., the Linux kernel), and sometimes for exploration.
+- I will shift my career to focus on Go as my professional lingua franca.
+- Ruby is more "consistent" and "nicer" than Python, but I would pick Python any day.
+- Anything other than Java that runs on the JVM isn't worth seriously considering.
+- Java favors configuration and tools over programming.
+- Stack-based languages (Factor, Forth) are elegant.
+
+I have a strong personal interest in libre hardware and software, privacy and security.  I am a big fan of [Purism](https://puri.sm/why-purism/) and [System76](https://blog.system76.com/post/179592732883/system76-on-us-manufacturing-and-open-hardware) for how they are working towards more openness.
+I am very interested in [RISC-V](https://riscv.org/why-risc-v/).
+I have mostly de-Googled my online life, as I self-host the vast majority of cloud services I use, including:
+
+- File sharing
+- Calendar
+- Contacts
+- File synchronization
+- Social microblogging
+- RSS subscriptions
+- Web bookmarking
+- Code repositories
+
+I never use Apple products if given a choice, and I block the Google Services Framework via local VPN on my Android devices, or just root them and install Google-less Android ROMs.
+I use Linux at home on a System76 machine with the Intel Management Engine cleaned.
+
+My medium-term goals involve contributing to the Linux kernel and supporting RISC-V ports for software I depend on.
+
+I am very interested in [The Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) and am heavily influenced by
+[Casey Muratori](https://caseymuratori.com/blog_0015).  I have found [Brian Will](https://www.youtube.com/watch?v=QM1iUe6IofM&t=27s)'s videos to reflect well on my own thinking.  Given infinite time, I would dive into [Plan9](https://9p.io/plan9/about.html) and live there instead of Linux or BSD.
+
+I build iteratively; start small and layer on more depth until a sufficient
+solution has been found. I iterate for usability, maintainability and various
+performance metrics.  As a rule I verify my own code as an end user before
+assigning it to anyone else for review.
+
+I don't only code.  In fact, most of my free time is dedicated to non-coding
+pursuits.  Physical fitness and nutrition are the two main extracurricular
+activities I pursue.  I do a lot of housework and work to ensure my wife and I
+split our parenting duties roughly evenly.  I strongly value balance among all
+things in life, not least of which is a balance between work and personal life.
+
+## Code
+
+- [BitBucket](https://bitbucket.org/GrooveStomp/)
+- [GitHub](https://github.com/groovestomp)
+- [GitLab](https://gitlab.com/GrooveStomp)
+- [GrooveStomp Code](https://code.groovestomp.com)
+- [SourceHut](https://git.sr.ht/~groovestomp)
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/aaronoman)
+- [Mastodon](https://mastodon.club/@GrooveStomp)
+- [Pleroma](https://pleroma.groovestomp.com/@GrooveStomp)
+
+## Resume
+
+- [Generic Cover Letter](https://nextcloud.groovestomp.com/s/cXg2qkfQHZEJ8ft)
+- [Résumé](https://nextcloud.groovestomp.com/s/T67oxx3sBmtsmfS)
 
 ## Professional Summary
 
@@ -13,8 +102,8 @@ type: page
 
 |Company         |Duration              |Title                    |Responsibilities|Languages and Technologies|
 |----------------|----------------------|-------------------------|----------------|--------------------------|
-|Lendesk         |Apr 2018 - Present    |Team Lead                |1:1s, sprint planning, ticket grooming, team management, cross-team coordination, code reviews, hiring interviews, process improvement, bug fixes, addressing technical debt, improve system architecture.|Ruby on Rails, Go, Redis, PostgreSQL|
-|Lendesk         |Aug 2017 - Apr 2018   |Senior Software Developer|Application development.|Ruby on Rails, Go, Redis, PostgreSQL|
+|Lendesk         |Aug 2017 - Present    |Senior Software Developer|Application development.|Ruby on Rails, Go, Redis, PostgreSQL|
+|Lendesk         |9 months              |Team Lead                |1:1s, sprint planning, ticket grooming, team management, cross-team coordination, code reviews, hiring interviews, process improvement, bug fixes, addressing technical debt, improve system architecture.|Ruby on Rails, Go, Redis, PostgreSQL|
 |Mogo            |2.8 Years             |Senior Software Developer|Assist in managing project scope, develop common libraries, implement features, interview potential hires.|Go, Ruby, RabbitMQ, Docker, Redis, MySQL|
 |Unbounce        |3.5 Years             |API Lead                 |Design, implement and support HTTP API. Integrations with 3rd parties.|Ruby, Ruby on Rails, Javascript, Java, MySQL|
 |Gossamer Threads|2.5 Years             |Programmer               |In-house forum and website software customizations for clients.|Perl, PHP, MySQL|
@@ -22,60 +111,12 @@ type: page
 
 {{% /horizontal_scroll %}}
 
-## Personal Summary
-
-I value candor and strive to exemplify it, both professionally and personally.
-I have plenty of room to grow. :-)
-
-I am an avid fan of computing history and love learning about computers,
-operating systems, networking, computer graphics and videogames.
-
-My current hobby is weight training and nutrition.  I've added 80lbs to my bench
-press in the past 8 months.  I've lost 10lbs
-and have gone through significant body recomposition.
-
-I also enjoy programming.  These days the majority of my programming is probably
-done in Bash for configuring and scripting my desktop environments.  Beyond that
-I'm primarily using Ruby professionally, Go sometimes professionally and
-sometimes for hobby purposes, and some variant of plain C for personal projects;
-often C99.
-
-## Programming Projects
-- [Daily Programming Practice](https://code.groovestomp.com/practice/tree/)
-  After the first HandmadeCon I was motivated to try a little dabble of
-  programming every day.  I have long since stopped doing that, but I still use
-  that repo to explore new projects on occasion.
-
-- [Software Renderer](https://code.groovestomp.com/software-renderer/tree/)
-  I decided to do a "clean-room" implementation of a software renderer to
-  replicate what it might have been like as a graphics/game programmer in the
-  early/mid 1990s.
-
-- [C Parser](https://code.groovestomp.com/cparser/tree/)
-  HandmadeHero and The Jeff and Casey Show motivated me to start exploring
-  making my own language and development tools.  This is the first bit of that
-  exploration.  I decided to start designing a new language based on a
-  foundation of C.  This is my hand-written recursive-descent parser written in
-  C.
-
-- [Personal C Library](https://code.groovestomp.com/gslibc/tree)
-  I started doing a lot more hobby programming in C.  C has a really weak
-  standard library, so you always end up rolling your own.  This is intended to
-  be along the lines of [gingerBill's
-  libraries](https://github.com/gingerBill/gb) or the [stb
-  libraries](https://github.com/nothings/stb).
-
-- [Config-file Precompiler](https://code.groovestomp.com/gscfg/tree/)
-  For one project I really wanted to have a yaml-style configuration file but
-  not have to do dynamic memory allocations or runtime parsing of the config
-  file to use the data.  My solution was to build a precompiler which generates
-  a .c file for inclusion into your source tree.
-
-See more at [code.groovestomp.com](https://code.groovestomp.com).
+<br/>
 
 {{% horizontal_scroll %}}
 | Date | Accomplishment / Event |
 |------|----------------|
+| 2019 | Stepped back into an IC role |
 | 2018 | Promoted to Team Lead at Lendesk |
 | 2017 | Joined Lendesk as a Senior Software Developer (Ruby/Go) |
 | 2016 | Started programming in Go |

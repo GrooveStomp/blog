@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Site.Title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  </head>
+  <body>
+    <div id="navigation">
+      <ul>
+        <li{{ if eq .Title "GrooveStomp" }} class="active"{{ end }}><a href="/">Home</a></li>
+        <li{{ if eq .Title "Tags" }} class="active"{{ end }}><a href="/tags">Post Tags</a></li>
+        <li{{ if eq .Title "Projects" }} class="active"{{ end }}><a href="/projects">Projects</a></li>
+        <li{{ if eq .Title "About" }} class="active"{{end }}><a href="/about">About</a></li>
+        <li><a href="/index.xml">Rss</a></li>
+      </ul>
+    </div>

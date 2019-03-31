@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+<div id="content-container">
+  {{ $paginator := (.Paginate (where .Site.Pages "Type" "post")) }}
+  {{ range $paginator.Pages }}
+  <div class="post">
+    <div class="float-container">
+      <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+      <span class="date">{{ dateFormat "2006-01-02" .Date }}</span>
+    </div>
+    {{ .Summary }}
+  </div>
+  {{ end }}
+  {{ partial "paginator.html" $paginator }}
+</div>
+{{ partial "footer.html" . }}
