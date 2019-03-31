@@ -94,7 +94,7 @@ things in life, not least of which is a balance between work and personal life.
 ## Resume
 
 - [Generic Cover Letter](https://nextcloud.groovestomp.com/s/cXg2qkfQHZEJ8ft)
-- [Résumé](https://nextcloud.groovestomp.com/s/T67oxx3sBmtsmfS)
+- [Resume](https://nextcloud.groovestomp.com/s/T67oxx3sBmtsmfS)
 
 ## Professional Summary
 
