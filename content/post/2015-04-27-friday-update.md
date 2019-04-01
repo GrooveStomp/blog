@@ -11,6 +11,6 @@ I just finished my third real playthrough of <a href="https://boardgamegeek.com/
 	<li>Playthrough 2: -42</li>
 	<li>Playthrough 3: -23</li>
 </ul>
-I definitely felt like I was making better decisions this time, too.  I also noticed a few spots where I can focus my attention next time.
+I definitely felt like I was making better decisions this time, too.  I also noticed a few spots where I can focus my attention next time.
 
-Man, such a great solo game.  A bit intense, though; I find it difficult to play it multiple times in succession.
+Man, such a great solo game.  A bit intense, though; I find it difficult to play it multiple times in succession.

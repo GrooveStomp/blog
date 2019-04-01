@@ -11,4 +11,4 @@ tags: [boardgaming, rftg]
 
 &nbsp;
 
-Not a lot to see here. I pursued a strategy involving a combination of production and exploration.  Hopefully the first in a complex and long-lasting relationship. :-)
+Not a lot to see here. I pursued a strategy involving a combination of production and exploration.  Hopefully the first in a complex and long-lasting relationship. :-)
