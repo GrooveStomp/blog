@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shadowrun on GrooveStomp</title>
+    <link>http://127.0.0.1:1234/tags/shadowrun/</link>
+    <description>Recent content in shadowrun on GrooveStomp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Apr 2015 12:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://127.0.0.1:1234/tags/shadowrun/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Shadowrun: Crossfire diversion</title>
+      <link>http://127.0.0.1:1234/2015/04/15/a-shadowrun-crossfire-diversion/</link>
+      <pubDate>Wed, 15 Apr 2015 12:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2015/04/15/a-shadowrun-crossfire-diversion/</guid>
+      <description>I&amp;rsquo;ve really been struggling with Shadowrun: Crossfire. I love the theme to death and the mechanics work nicely. There&amp;rsquo;s just something off about it. For one thing, it&amp;rsquo;s punishingly hard; I&amp;rsquo;ve played 8 times and lost every single one. It doesn&amp;rsquo;t seem to matter whether I&amp;rsquo;m playing single player, two player or three. (Haven&amp;rsquo;t tried four yet.) The best progress I&amp;rsquo;ve made was playing four runners solo.
+I&amp;rsquo;ve been toying with the idea of reworking the game.</description>
+    </item>
+    
+  </channel>
+</rss>

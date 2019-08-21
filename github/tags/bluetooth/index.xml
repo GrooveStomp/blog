@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bluetooth on GrooveStomp</title>
+    <link>http://127.0.0.1:1234/tags/bluetooth/</link>
+    <description>Recent content in bluetooth on GrooveStomp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 13 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://127.0.0.1:1234/tags/bluetooth/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bluetooth on Arch</title>
+      <link>http://127.0.0.1:1234/2016/05/13/bluetooth-arch/</link>
+      <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2016/05/13/bluetooth-arch/</guid>
+      <description>Well, today I had a &amp;ldquo;fun&amp;rdquo; little diversion. I started out by wanting to connect a game controller to my crappy little Dell Mini so I can start prototyping some games. Of course a controller isn&amp;rsquo;t required, but I like controllers and it seemed like a small little learning exercise. If you know me and my experience with computers, then you&amp;rsquo;ll know that this didn&amp;rsquo;t go as planned. Also, why would I be writing about it if it did?</description>
+    </item>
+    
+  </channel>
+</rss>

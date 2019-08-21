@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>videogaming on GrooveStomp</title>
+    <link>http://127.0.0.1:1234/tags/videogaming/</link>
+    <description>Recent content in videogaming on GrooveStomp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 03 Feb 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://127.0.0.1:1234/tags/videogaming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Game Reviews, OSes and the 3DS</title>
+      <link>http://127.0.0.1:1234/2016/02/03/game-reviews-update/</link>
+      <pubDate>Wed, 03 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2016/02/03/game-reviews-update/</guid>
+      <description>Today is a grab-bag of miscellaneous thoughts and updates that aren&amp;rsquo;t necessarily related to each other.
+First off, I haven&amp;rsquo;t been keeping up with my daily programming practice, but it&amp;rsquo;s not for lack of will. As my last post may have illustrated 1; I&amp;rsquo;ve been dealing with computer problems. I&amp;rsquo;ve only recently managed to get a working installation of Windows on my machine, but I&amp;rsquo;ve run into problems with my GNU/Linux distro, so actual productivity work is put on hold until that&amp;rsquo;s resolved.</description>
+    </item>
+    
+    <item>
+      <title>MatthewMatosis</title>
+      <link>http://127.0.0.1:1234/2016/01/23/matthewmatosis/</link>
+      <pubDate>Sat, 23 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2016/01/23/matthewmatosis/</guid>
+      <description>This is a short post. I really like videogames, but I often find myself lacking motivation to play. I think this happens a lot because I know there&amp;rsquo;s a serious time commitment to actually complete most games and I&amp;rsquo;m not normally able to play for more than an hour or so.
+Well, Dark Souls has been absolutely consuming my free time lately.
+I got quite into Dark Souls about a year ago when I picked up a copy for PC.</description>
+    </item>
+    
+    <item>
+      <title>Bernband Review</title>
+      <link>http://127.0.0.1:1234/2015/11/10/bernband-review/</link>
+      <pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2015/11/10/bernband-review/</guid>
+      <description>I&amp;rsquo;m drawn to the idea of walking simulators. It&amp;rsquo;s no coincidence that my first &amp;ldquo;intentional&amp;rdquo; game review was of Proteus. Modern so-called &amp;ldquo;AAA&amp;rdquo; gaming is full of violence, so walking simulators are a nice conceptual departure. I don&amp;rsquo;t have a lot of experience with walking simulators, but I have played a few, including: Dear Esther, Proteus, Shelter, The Stanley Parable and Gone Home. Even among that small selection, there&amp;rsquo;s a wide variation of gameplay and themes, so clearly this is a broad genre worth exploring.</description>
+    </item>
+    
+    <item>
+      <title>Proteus Review</title>
+      <link>http://127.0.0.1:1234/2015/10/20/proteus-review/</link>
+      <pubDate>Tue, 20 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2015/10/20/proteus-review/</guid>
+      <description>The best way I can think of to open this review is by quoting myself: “What a weird, boring, delightful, pleasant game. It is really difficult to feel [it] or describe it in one way.”
+Proteus is boring. You walk around and have very little agency in the world. You can chase creatures and not much else. I really wish days could be shortened to 5 minutes instead of the current shortest value of 15 minutes.</description>
+    </item>
+    
+    <item>
+      <title>Inspired to Share Gaming Experiences</title>
+      <link>http://127.0.0.1:1234/2015/10/19/pc-gaming/</link>
+      <pubDate>Mon, 19 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2015/10/19/pc-gaming/</guid>
+      <description>This past weekend was a little bit rough. Dee and I were both feeling really under the weather so we pretty much got as little done as possible. Dee took over responsibilities for dropping Lily off with her folks, so I jumped at the opportunity to catch up on a few shows. Among them was Jodorowski&amp;rsquo;s Dune, a film I found to be rather inspirational.
+For a long time now I&amp;rsquo;ve felt rather disillusioned with modern AAA videogames.</description>
+    </item>
+    
+  </channel>
+</rss>

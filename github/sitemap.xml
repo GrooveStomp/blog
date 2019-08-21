@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://127.0.0.1:1234/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/linux/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/post/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/sysops/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/vps/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2019/02/27/vps-learning/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/emulation/</loc>
+    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/golang/</loc>
+    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/qemu/</loc>
+    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2019/02/13/riscv-go-qemu/</loc>
+    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/riscv/</loc>
+    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/encryption/</loc>
+    <lastmod>2018-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/postgresql/</loc>
+    <lastmod>2018-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2018/12/12/chkpass/</loc>
+    <lastmod>2018-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2018/12/07/qemu-riscv/</loc>
+    <lastmod>2018-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2017/05/17/android-mainframe/</loc>
+    <lastmod>2017-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/boardgaming/</loc>
+    <lastmod>2017-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/android/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2017/05/09/rftg-android/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/post/2016-11-24-editor-sizes/</loc>
+    <lastmod>2016-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/editors/</loc>
+    <lastmod>2016-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/memory/</loc>
+    <lastmod>2016-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/memory-size/</loc>
+    <lastmod>2016-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/size/</loc>
+    <lastmod>2016-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/text-editors/</loc>
+    <lastmod>2016-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/post/2016-11-10-android-applications/</loc>
+    <lastmod>2016-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/f-droid/</loc>
+    <lastmod>2016-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/handmadecon/</loc>
+    <lastmod>2016-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/post/2016-10-30/</loc>
+    <lastmod>2016-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/self-hosting/</loc>
+    <lastmod>2016-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/crux/</loc>
+    <lastmod>2016-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/lessism/</loc>
+    <lastmod>2016-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2016/05/26/linuxing/</loc>
+    <lastmod>2016-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/minimalism/</loc>
+    <lastmod>2016-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/morpheus/</loc>
+    <lastmod>2016-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/musl/</loc>
+    <lastmod>2016-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/stali/</loc>
+    <lastmod>2016-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/tiny-core-linux/</loc>
+    <lastmod>2016-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/arch-linux/</loc>
+    <lastmod>2016-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/bluetooth/</loc>
+    <lastmod>2016-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2016/05/13/bluetooth-arch/</loc>
+    <lastmod>2016-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/ps3-controller/</loc>
+    <lastmod>2016-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2016/05/11/brief-update/</loc>
+    <lastmod>2016-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/general/</loc>
+    <lastmod>2016-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/gnu/</loc>
+    <lastmod>2016-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2016/04/11/kde/</loc>
+    <lastmod>2016-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/kde/</loc>
+    <lastmod>2016-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/os/</loc>
+    <lastmod>2016-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/computers/</loc>
+    <lastmod>2016-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2016/02/03/game-reviews-update/</loc>
+    <lastmod>2016-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/software/</loc>
+    <lastmod>2016-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/videogaming/</loc>
+    <lastmod>2016-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2016/02/02/bad-software/</loc>
+    <lastmod>2016-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2016/02/28/self-hosting-struggles/</loc>
+    <lastmod>2016-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2016/02/25/self-hosting/</loc>
+    <lastmod>2016-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2016/01/23/matthewmatosis/</loc>
+    <lastmod>2016-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2016/01/19/daily-coding/</loc>
+    <lastmod>2016-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/programming/</loc>
+    <lastmod>2016-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/12/12/ludum-dare/</loc>
+    <lastmod>2015-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/11/10/bernband-review/</loc>
+    <lastmod>2015-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/10/20/proteus-review/</loc>
+    <lastmod>2015-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/10/19/pc-gaming/</loc>
+    <lastmod>2015-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/09/19/data-and-domain-isolation/</loc>
+    <lastmod>2015-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/09/16/balancing-development-considerations/</loc>
+    <lastmod>2015-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/friday/</loc>
+    <lastmod>2015-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/08/29/thoughts-on-friday/</loc>
+    <lastmod>2015-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/08/27/boardgaming-update/</loc>
+    <lastmod>2015-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/05/20/a-return-to-lotr-lcg/</loc>
+    <lastmod>2015-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/lotr/</loc>
+    <lastmod>2015-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/05/14/more-on-the-witcher/</loc>
+    <lastmod>2015-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/witcher/</loc>
+    <lastmod>2015-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/05/12/the-witcher-adventure-card-game/</loc>
+    <lastmod>2015-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/05/10/marvel-legendary-second-play/</loc>
+    <lastmod>2015-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/05/09/marvel-legendary-via-vassal/</loc>
+    <lastmod>2015-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/rftg/</loc>
+    <lastmod>2015-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/05/07/swapping-rftg-in-for-dice-masters/</loc>
+    <lastmod>2015-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/05/05/more-friday-from-monday/</loc>
+    <lastmod>2015-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/05/04/sunday-gaming/</loc>
+    <lastmod>2015-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/05/01/rftg-the-gathering-storm/</loc>
+    <lastmod>2015-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/29/lotr-lcg-foamcore-insert/</loc>
+    <lastmod>2015-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/27/what-did-you-play-this-week/</loc>
+    <lastmod>2015-04-27T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/27/friday-update/</loc>
+    <lastmod>2015-04-27T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/27/foiled/</loc>
+    <lastmod>2015-04-27T08:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/26/some-words-on-iconography/</loc>
+    <lastmod>2015-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/25/lotr-lcg-a-deck-in-review/</loc>
+    <lastmod>2015-04-25T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/25/eod/</loc>
+    <lastmod>2015-04-25T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/24/vivajava-the-coffee-game-the-dice-game/</loc>
+    <lastmod>2015-04-24T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/24/latest-temptations/</loc>
+    <lastmod>2015-04-24T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/21/lotr-lcg-round-two/</loc>
+    <lastmod>2015-04-21T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/21/lord-of-the-rings-the-card-game/</loc>
+    <lastmod>2015-04-21T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/20/what-did-you-play-this-week/</loc>
+    <lastmod>2015-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/17/rftg-first-win/</loc>
+    <lastmod>2015-04-17T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/17/rftg-on-linux/</loc>
+    <lastmod>2015-04-17T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/17/race-for-the-galaxy/</loc>
+    <lastmod>2015-04-17T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/17/bang-the-dice-game/</loc>
+    <lastmod>2015-04-17T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/dd/</loc>
+    <lastmod>2015-04-15T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/15/rpg-backstories/</loc>
+    <lastmod>2015-04-15T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/trpgs/</loc>
+    <lastmod>2015-04-15T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/15/friday/</loc>
+    <lastmod>2015-04-15T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2015/04/15/a-shadowrun-crossfire-diversion/</loc>
+    <lastmod>2015-04-15T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/shadowrun/</loc>
+    <lastmod>2015-04-15T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2014/11/23/interested-in-efficiency/</loc>
+    <lastmod>2014-11-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/job/</loc>
+    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2014/10/14/started-at-mogo/</loc>
+    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2014/09/21/ruminations-on-writing/</loc>
+    <lastmod>2014-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/writing/</loc>
+    <lastmod>2014-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/filesystem/</loc>
+    <lastmod>2014-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/filesystems/</loc>
+    <lastmod>2014-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/ruby/</loc>
+    <lastmod>2014-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2014/04/29/ruby-loadpaths/</loc>
+    <lastmod>2014-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/conferences/</loc>
+    <lastmod>2014-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2014/03/09/bangbangcon/</loc>
+    <lastmod>2014-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/public-speaking/</loc>
+    <lastmod>2014-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2014/02/25/chef-dependencies/</loc>
+    <lastmod>2014-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/devops/</loc>
+    <lastmod>2014-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/family/</loc>
+    <lastmod>2014-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/2014/02/24/resetting/</loc>
+    <lastmod>2014-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/tags/website/</loc>
+    <lastmod>2014-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/all_posts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/programming/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:1234/series/</loc>
+  </url>
+  
+</urlset>

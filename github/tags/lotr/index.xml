@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lotr on GrooveStomp</title>
+    <link>http://127.0.0.1:1234/tags/lotr/</link>
+    <description>Recent content in lotr on GrooveStomp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 20 May 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://127.0.0.1:1234/tags/lotr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A return... to LOTR:LCG</title>
+      <link>http://127.0.0.1:1234/2015/05/20/a-return-to-lotr-lcg/</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2015/05/20/a-return-to-lotr-lcg/</guid>
+      <description>With my last post being on the 13th, it seems as though I&amp;rsquo;ve had a slight hiatus from gaming. For the most part, I would agree with this. I managed to play some D&amp;amp;D and Ascension via my phone.
+Tonight, however, I made a triumphant return to form with my first session of LOTR:LCG since I built my foamcore insert. I used this guide for deckbuilding with just one core set and played Passage Through Mirkwood.</description>
+    </item>
+    
+    <item>
+      <title>LOTR:LCG Foamcore Insert</title>
+      <link>http://127.0.0.1:1234/2015/04/29/lotr-lcg-foamcore-insert/</link>
+      <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2015/04/29/lotr-lcg-foamcore-insert/</guid>
+      <description>I built my first foamcore insert! See my imgur album here.
+I made a reddit post here.</description>
+    </item>
+    
+    <item>
+      <title>LOTR:LCG: A Deck in Review</title>
+      <link>http://127.0.0.1:1234/2015/04/25/lotr-lcg-a-deck-in-review/</link>
+      <pubDate>Sat, 25 Apr 2015 12:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2015/04/25/lotr-lcg-a-deck-in-review/</guid>
+      <description>I recently built a custom deck to take me through the first scenario. It worked wonderfully that first shot, and that felt great; though I was a little surprised it worked as well as it did. Tonight I gave it a second test drive and definitely ran into some kinks.
+My selection algorithm for pulling cards from various spheres of influence was to simply go for all the low-cost ones. Everything 0 or 1 point got scooped up.</description>
+    </item>
+    
+    <item>
+      <title>LOTR:LCG: Round Two</title>
+      <link>http://127.0.0.1:1234/2015/04/21/lotr-lcg-round-two/</link>
+      <pubDate>Tue, 21 Apr 2015 12:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2015/04/21/lotr-lcg-round-two/</guid>
+      <description>Wow. Okay, so that was a completely different experience.
+I&amp;rsquo;ve played a total of five times now, I believe. I have a reasonable understanding of the mechanics of the game, and of what various cards do. I haven&amp;rsquo;t been getting much luck with the prebuilt decks I&amp;rsquo;ve tried (either custom or part of the core set), so I figured I might as well just try my own thing. Even more than that, I threw caution to the wind and went for something that I think I read as being uncouth: a 3-faction deck.</description>
+    </item>
+    
+    <item>
+      <title>Lord of the Rings: The Card Game</title>
+      <link>http://127.0.0.1:1234/2015/04/21/lord-of-the-rings-the-card-game/</link>
+      <pubDate>Tue, 21 Apr 2015 10:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2015/04/21/lord-of-the-rings-the-card-game/</guid>
+      <description>Lord of the Rings: The Card Game, a.k.a Lord of the Rings: LCG, a.k.a LOTR:LCG - which is how I&amp;rsquo;ll refer to it from now on.
+This game&amp;hellip; I don&amp;rsquo;t know about it. I was really excited to get my copy after having read a lot about how it&amp;rsquo;s a great game to play solo. One thing you&amp;rsquo;re not told is how the core set isn&amp;rsquo;t very good for solo play, and how only one of the three included missions is even beatable if you play solo.</description>
+    </item>
+    
+  </channel>
+</rss>

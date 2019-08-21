@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GrooveStomp</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  </head>
+  <body>
+    <div id="navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/tags">Post Tags</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/index.xml">Rss</a></li>
+      </ul>
+    </div>
+
+<div id="content-container">
+  <div class="post">
+    <div class="float-container">
+      <h1>PostgreSQL Password Encryption</h1>
+      <span class="date">2018-12-12</span>
+    </div>
+    
+
+<p>I&rsquo;m working on a side project to gain more exposure to different kinds of projects in Go.
+This one is a pretty typical web application involving multiple authenticated users.
+For data storage I&rsquo;m using PostgreSQL for its UUID type and cryptographic extensions.
+The cryptographic extensions are interesting, because of things like chkpass<sup><a
+href="#2018-12-12_ref1">1</a></sup>.</p>
+
+<p>My project right now is using chkpass for storing user passwords.  Almost
+immediately after hooking this up I started wondering how chkpass actually
+works.  Let&rsquo;s take a look.</p>
+
+<blockquote>
+<p>The encryption uses the standard Unix function crypt(), and so it suffers from
+all the usual limitations of that function; notably that only the first eight
+characters of a password are considered.</p>
+</blockquote>
+
+<p>So already we see something special:</p>
+
+<blockquote>
+<p>only the first eight characters of a password are considered</p>
+</blockquote>
+
+<p>Interesting!</p>
+
+<p>And let&rsquo;s look at the documentation for crypt<sup><a href="#2018-12-12_ref2">2</a></sup>:</p>
+
+<blockquote>
+<p>key is a user&rsquo;s typed password.</p>
+
+<p>salt is a two-character string chosen from the set [a-zA-Z0-9./].  This string
+is used to perturb the algorithm in one of 4096 different ways.</p>
+
+<p>By taking the lowest 7 bits of each of the first eight characters of the key,
+a 56-bit key is obtained.  This 56-bit key is used to encrypt repeatedly a
+constant string (usually a string consisting of all zeros).  The returned value
+points to the encrypted password, a series of 13 printable ASCII characters
+(the first two characters represent the salt itself).  The return value points
+to static data whose content is overwritten by each call.</p>
+
+<p>Warning: the key space consists of 2**56 equal 7.2e16 possible values.
+Exhaustive searches of this key space are possible using massively parallel
+computers.  Software, such as crack(1), is available which will search the
+portion of this key space that is generally used by humans for passwords.
+Hence, password selection should, at minimum, avoid common words and names.
+The use of a passwd(1) program that checks for crackable passwords during the
+selection process is recommended.</p>
+
+<p>The DES algorithm itself has a few quirks which make the use of the crypt()
+interface a very poor choice for anything other than password authentication.
+If you are planning on using the crypt() interface for a cryptography project,
+don&rsquo;t do it: get a good book on encryption and one of the widely available DES
+libraries.</p>
+</blockquote>
+
+<p>There&rsquo;s a lot there that&rsquo;s good to know.  A short summary here based on my
+reading:</p>
+
+<ul>
+<li><p><code>key</code> is the user&rsquo;s password and <code>salt</code> is a two character string selected
+independently of user input.</p></li>
+
+<li><p>The first 8 characters of the user&rsquo;s password are used to generate a new key
+that is used to iteratively encrypt a pre-set, constant string.</p></li>
+
+<li><p>The result of the encryption step above is the new encrypted value we store.</p></li>
+</ul>
+
+<p>This is very neat, but reading this makes me lean towards not using it for
+password storage, especially with statements like:</p>
+
+<blockquote>
+<p>If you are planning on using the crypt() interface for a cryptography project, don&rsquo;t do it</p>
+</blockquote>
+
+<p>I understand that &ldquo;true cryptography&rdquo; probably requires a different level of
+cryptographic security than authentication credentials in most cases, but I
+don&rsquo;t like to think of it that way.  In my opinion, if it&rsquo;s not good enough for
+cryptography, then it&rsquo;s not good enough for the protection of my users&rsquo; privacy.
+Not to mention, the cryptographic security of the password is fixed
+independently of the size of the password entered.  That&rsquo;s not good.</p>
+
+<p>So what do I recommend?</p>
+
+<p>I recommend encrypting with bcrypt<sup><a
+href="#2018-12-12_ref3">3</a>&nbsp;</sup><sup><a
+href="#2018-12-12_ref4">4</a></sup> in your language of choice and a per-row
+unique salt per password<sup><a href="#2018-12-12_ref5">5</a></sup>.  Store the
+encrypted password in a regular varchar column.</p>
+
+<p>Also read Jeff Atwood&rsquo;s post entitled &ldquo;You&rsquo;re Probably Storing Passwords
+Incorrectly&rdquo;<sup><a href="#2018-12-12_ref6">6</a></sup>.</p>
+
+<hr />
+
+<h4 id="footnotes">Footnotes</h4>
+
+<p><sub><sup id="2018-12-12_ref1">1</sup><a href="https://www.postgresql.org/docs/10/chkpass.html">chkpass</a></sub><br />
+<sub><sup id="2018-12-12_ref2">2</sup><a href="http://man7.org/linux/man-pages/man3/crypt.3.html">crypt</a></sub><br />
+<sub><sup id="2018-12-12_ref3">3</sup><a href="https://en.wikipedia.org/wiki/Bcrypt">bcrypt</a></sub><br />
+<sub><sup id="2018-12-12_ref4">4</sup><a href="https://security.stackexchange.com/a/26253">bcrypt vs. scrypt</a></sub><br />
+<sub><sup id="2018-12-12_ref5">5</sup><a href="https://stackoverflow.com/a/1219908">Where to store password salts</a></sub><br />
+<sub><sup id="2018-12-12_ref6">6</sup><a href="https://blog.codinghorror.com/youre-probably-storing-passwords-incorrectly/">You&rsquo;re Probably Storing Passwords Incorrectly</a></sub><br /></p>
+
+  </div>
+
+  <div id="pagination">
+    <ul>
+      
+      <li><a href="http://127.0.0.1:1234/2019/02/13/riscv-go-qemu/">Older</a></li>
+      
+      
+      <li><a href="http://127.0.0.1:1234/2018/12/07/qemu-riscv/">Newer</a></li>
+      
+    </ul>
+  </div>
+</div>
+  </body>
+</html>
+

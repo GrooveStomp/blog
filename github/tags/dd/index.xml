@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>d&amp;d on GrooveStomp</title>
+    <link>http://127.0.0.1:1234/tags/dd/</link>
+    <description>Recent content in d&amp;d on GrooveStomp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Apr 2015 18:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://127.0.0.1:1234/tags/dd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RPG Backstories</title>
+      <link>http://127.0.0.1:1234/2015/04/15/rpg-backstories/</link>
+      <pubDate>Wed, 15 Apr 2015 18:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2015/04/15/rpg-backstories/</guid>
+      <description>My favourite part of D&amp;amp;D to date has been pouring over resources and thinking up a backstory for my character.
+I don&amp;rsquo;t have a long history with tabletop RPGs other than being interested in D&amp;amp;D for many, many years. In 2014 I was lucky enough to have coworkers who were interested in playing, as well as a wonderful GM. We started a D&amp;amp;D 4th edition party. That was a good experience, but something about it didn&amp;rsquo;t really feel right to me; it wasn&amp;rsquo;t particularly engaging and the game felt repetitive.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>job on GrooveStomp</title>
+    <link>http://127.0.0.1:1234/tags/job/</link>
+    <description>Recent content in job on GrooveStomp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 14 Oct 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://127.0.0.1:1234/tags/job/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Position at Mogo</title>
+      <link>http://127.0.0.1:1234/2014/10/14/started-at-mogo/</link>
+      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2014/10/14/started-at-mogo/</guid>
+      <description>I am super excited to announce that I have started working at Mogo Financial. Mogo is doing really interesting things in the Canadian financial market and I am proud to be a part of it.
+My title is officially Senior Software Developer, though I have a lot of learning and growing to do.
+I look forward to working with my new team and the challenges we will be facing.</description>
+    </item>
+    
+  </channel>
+</rss>

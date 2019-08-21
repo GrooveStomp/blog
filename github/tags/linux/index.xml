@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on GrooveStomp</title>
+    <link>http://127.0.0.1:1234/tags/linux/</link>
+    <description>Recent content in linux on GrooveStomp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 27 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://127.0.0.1:1234/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VPS Learning</title>
+      <link>http://127.0.0.1:1234/2019/02/27/vps-learning/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2019/02/27/vps-learning/</guid>
+      <description>Today we learn how little I know about system administration.
+I host most of my own &amp;ldquo;cloud&amp;rdquo; services on a VPS I rent from SSDNodes. Recently I purchased an upgraded KVM node for reasons of which I&amp;rsquo;ll get into later. Anyway, I ran into a hiccup while trying to start migrating from my older VPS.
+└─ curl 142.44.184.204 curl: (56) Recv failure: Connection reset by peer  Hmm.
+NOTE: First of all, I know the machine is reachable because I can SSH into it.</description>
+    </item>
+    
+    <item>
+      <title>Linuxing</title>
+      <link>http://127.0.0.1:1234/2016/05/26/linuxing/</link>
+      <pubDate>Thu, 26 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2016/05/26/linuxing/</guid>
+      <description>Have you ever heard of suckless1? I think I stumbled onto suckless sometime while reading K. Mandla2, though there&amp;rsquo;s a reasonable chance it might have happened before then. suckless immediately resonated with me because of their philosophy3. Their software also looks good, very accurately reflecting the idea of minimalism4; often requiring you to rethink how you typically interact with software to do what you want to do. Sometimes this process of re-evaluation is fruitful, sometimes maybe less so, but it&amp;rsquo;s always interesting to experience.</description>
+    </item>
+    
+    <item>
+      <title>I like KDE</title>
+      <link>http://127.0.0.1:1234/2016/04/11/kde/</link>
+      <pubDate>Mon, 11 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2016/04/11/kde/</guid>
+      <description>So, it turns out I like KDE.
+I use Ubuntu a lot. It&amp;rsquo;s installed on all of my computers and it&amp;rsquo;s the server OS I&amp;rsquo;ve used at work for the past five or so years. Typically I stick with Unity on the desktop. There are a few reasons why I opted to change: I like to try new things, I get bored, I haven&amp;rsquo;t used KDE in a while. It&amp;rsquo;s hard to say exactly.</description>
+    </item>
+    
+    <item>
+      <title>RFTG on Linux</title>
+      <link>http://127.0.0.1:1234/2015/04/17/rftg-on-linux/</link>
+      <pubDate>Fri, 17 Apr 2015 16:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2015/04/17/rftg-on-linux/</guid>
+      <description>Through the magic of Wine (specifically the PlayOnLinux variant) I&amp;rsquo;m now able to play RFTG on my Ubuntu machine from System 76. Oh happy day! :-)</description>
+    </item>
+    
+  </channel>
+</rss>

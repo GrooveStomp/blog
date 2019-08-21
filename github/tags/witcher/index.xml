@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>witcher on GrooveStomp</title>
+    <link>http://127.0.0.1:1234/tags/witcher/</link>
+    <description>Recent content in witcher on GrooveStomp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 14 May 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://127.0.0.1:1234/tags/witcher/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>More on The Witcher</title>
+      <link>http://127.0.0.1:1234/2015/05/14/more-on-the-witcher/</link>
+      <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2015/05/14/more-on-the-witcher/</guid>
+      <description>Well, I got two more games of The Witcher Adventure Game under my belt this evening. The first game I played was supposed to go to 3 quests, but I quit after two. Man, that was incredibly frustrating. One thing that became very apparent is how little interaction there is among players. This is more of a &amp;ldquo;multiplayer solitaire&amp;rdquo; game than any other game I&amp;rsquo;ve played. I seriously just open a browser window and do something completely differently while the computer opponents play their roles.</description>
+    </item>
+    
+    <item>
+      <title>The Witcher Adventure Game</title>
+      <link>http://127.0.0.1:1234/2015/05/12/the-witcher-adventure-card-game/</link>
+      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2015/05/12/the-witcher-adventure-card-game/</guid>
+      <description>GOG is having an &amp;ldquo;up to 85%&amp;rdquo; off sale for their Witcher series of games. I already have The Witcher 1 and 2, but they&amp;rsquo;re also offering The Witcher Adventure Game. I was part of the beta, but didn&amp;rsquo;t have an opportunity to play it, and only attempted to play the demo a couple of times. I found the tutorial wasn&amp;rsquo;t particularly elucidating and just let it be. I&amp;rsquo;ve been curious about the boardgame for some time, but don&amp;rsquo;t know anybody who&amp;rsquo;s played it, and haven&amp;rsquo;t seen it come up very often in any boardgame discussions.</description>
+    </item>
+    
+  </channel>
+</rss>

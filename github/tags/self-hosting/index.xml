@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>self-hosting on GrooveStomp</title>
+    <link>http://127.0.0.1:1234/tags/self-hosting/</link>
+    <description>Recent content in self-hosting on GrooveStomp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 30 Oct 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://127.0.0.1:1234/tags/self-hosting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HandmadeCon 2016 and Self Hosting</title>
+      <link>http://127.0.0.1:1234/post/2016-10-30/</link>
+      <pubDate>Sun, 30 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/post/2016-10-30/</guid>
+      <description>HandmadeCon 2016 is just around the corner! I&amp;rsquo;m really excited to go! The speaker lineup looks absolutely stellar this year.  Besides that, I&amp;rsquo;ve obviously been keeping myself busy for a few months here with nary an update. The most visible change to anyone who might read this blog is that I&amp;rsquo;ve completely revamped my hosting situation; both making great progress on my goal of being entirely self-hosted, and for serving up content via HTTPS to you.</description>
+    </item>
+    
+    <item>
+      <title>An Update On Self-Hosting Progress</title>
+      <link>http://127.0.0.1:1234/2016/02/28/self-hosting-struggles/</link>
+      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2016/02/28/self-hosting-struggles/</guid>
+      <description>Well, it seems I&amp;rsquo;m making very slow progress towards my goal of self-hosting. The first issue I&amp;rsquo;ve run into is with officially support OSes. I like running Arch Linux, but Arch Linux is not officially supported by either OwnCloud or GitLab. GitLab is the more demanding of the two applications, requiring a minimum of 2GB of RAM and strongly recommending 2 cores. Unfortunately, I have Manjaro (an Arch distribution) running on my Dell Mini 10 where I installed GitLab via Yaourt; but that machine only has 1GB of RAM and a single core.</description>
+    </item>
+    
+    <item>
+      <title>Self Hosting</title>
+      <link>http://127.0.0.1:1234/2016/02/25/self-hosting/</link>
+      <pubDate>Mon, 25 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2016/02/25/self-hosting/</guid>
+      <description>I&amp;rsquo;m going to start this post with a little problem I created for myself.
+So many computers Let&amp;rsquo;s see here. I have a gaming desktop at home, a work laptop at work, a netbook at home for resource-constrained programming and a Raspberry Pi. That&amp;rsquo;s cool. Daniela also has her own computer, but that&amp;rsquo;s hers and I simply leave it be. Two weeks ago I caught myself watching The 8-Bit Guy talking about the Macbook Core Duo and seeing if it&amp;rsquo;s obsolete1.</description>
+    </item>
+    
+  </channel>
+</rss>

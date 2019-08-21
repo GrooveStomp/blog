@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GrooveStomp</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  </head>
+  <body>
+    <div id="navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/tags">Post Tags</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/index.xml">Rss</a></li>
+      </ul>
+    </div>
+
+<div id="content-container">
+  <div class="post">
+    <div class="float-container">
+      <h1>qemu and RISC-V</h1>
+      <span class="date">2018-12-07</span>
+    </div>
+    
+
+<p>It&rsquo;s been a long time since I&rsquo;ve posted here.  So what&rsquo;s up?</p>
+
+<p>I&rsquo;ve been working at Lendesk in a team lead / senior developer role and trying to pursue my interest in Go and Linux.
+This has been a very tricky path to navigate as work has abandoned any pretense of plans to adopt Go and all work machines are MacOS.
+Thankfully, I&rsquo;ve been able to carve out some personal time to keep poking around in my area of interest.</p>
+
+<p>I met up with my buddy Lucas for drinks the other day, and as we are wont to do, we discussed Linux, programming, security, privacy and other such things.  This got my mind running and eventually I remembered
+RISC-V<sup><a href="#2018-12-07_ref1">1</a></sup>.</p>
+
+<p>A while back I bought a System76 laptop.  Originally I had placed an order for a Purism Librem 15, but due to some miscommunication and problems with delivery, I wound up cancelling that order.  Luckily, right after I had placed the order, System76 announced that they were removing Intel&rsquo;s IME from all of their machines.
+Management-engine-freedom is a great step, but it&rsquo;s not quite all the way to Libreboot support, or entirely open hardware.
+RISC-V is entirely open hardware.  I&rsquo;m a huge fan of this.</p>
+
+<p>So, last night I decided that I want to try poking around in the RISC-V world and see what kind of damage I can do.
+All I managed to do is boot Fedora Linux on a version of qemu built with RISC-V support.
+The community has done a ton of work here and the process is very easy to get started with; just follow the docs at qemu.org<sup><a href="#2018-12-07_ref2">2</a></sup>.
+I was hoping to start poking around with Go on RISC-V, but doing so requires a cross-compilation build as described on the riscv-go README<sup><a href="#2018-12-07_ref3">3</a></sup>.</p>
+
+<p>I will hopefully follow up again with this sometime soon and post appropriate updates here.</p>
+
+<hr />
+
+<h4 id="footnotes">Footnotes</h4>
+
+<p><sub><sup id="2018-12-07_ref1">1</sup><a href="https://riscv.org/">RISC-V</a></sub><br />
+<sub><sup id="2018-12-07_ref2">2</sup><a href="https://wiki.qemu.org/Documentation/Platforms/RISCV">qemu.org RISC-V</a></sub><br />
+<sub><sup id="2018-12-07_ref3">3</sup><a href="https://github.com/riscv/riscv-go#quick-start">riscv-go README</a></sub><br /></p>
+
+  </div>
+
+  <div id="pagination">
+    <ul>
+      
+      <li><a href="http://127.0.0.1:1234/2018/12/12/chkpass/">Older</a></li>
+      
+      
+      <li><a href="http://127.0.0.1:1234/2017/05/17/android-mainframe/">Newer</a></li>
+      
+    </ul>
+  </div>
+</div>
+  </body>
+</html>
+

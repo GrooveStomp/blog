@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GrooveStomp</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  </head>
+  <body>
+    <div id="navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/tags">Post Tags</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/index.xml">Rss</a></li>
+      </ul>
+    </div>
+
+<div id="content-container">
+  <div class="post">
+    <div class="float-container">
+      <h1>Chef Dependency Management</h1>
+      <span class="date">2014-02-25</span>
+    </div>
+    <p>At work we&rsquo;ve been using Chef to manage systems automation.  It&rsquo;s been a bit of a rough process with only one
+devops team member.  Around five months ago I started pitching in.  This served two purposes: test our existing
+process and help out with more pressing automation tasks.  It became quite obvious that our use of Chef required a lot
+more discipline and structure.  We&rsquo;re not fully there yet, but we&rsquo;re definitely making improvements.</p>
+
+<p>The purpose of this post is to discuss dependency resolution between cookbooks as we encounter it while
+using Chef server.</p>
+
+<pre><code>
+    **********************
+    *                    *
+    *  Local Dev Machine *
+    *                    *
+    **********************
+              *
+              *
+              *
+    **********************       ************************
+    *                    *       *                      *
+    *     Chef Server    *********      Chef Node       *
+    *                    *       *                      *
+    **********************       ************************
+
+</code></pre>
+
+<p>On your local Dev machine you upload your cookbook to the Chef Server.
+When you create a new node, the Chef runtime will try to resolve all cookbook dependencies for the Node so
+that the Chef run can execute.</p>
+
+<p>We use a great many cookbooks, all of which attempt to explicitly lay out all their dependencies and
+pin their versions.  Perhaps I&rsquo;ll write about why we decided to be so explicit in this regard in a later post.
+What&rsquo;s happening to us is that Chef Server is trying to resolve the big dependency chain of cookbooks and is
+encountering a conflict somewhere.  This manifests as a timeout when trying to resolve dependencies.
+Unfortunately, there&rsquo;s no useful output from Chef at this point, so cookbook developers need to manually
+investigate dependencies and isolate the conflict.  <a href="https://tickets.opscode.com/browse/CHEF-3921">There&rsquo;s an open issue related to it</a>
+with the <a href="https://github.com/opscode/chef_objects/commit/a3133ced037d1e508ff18723ad9a6f2b94dea1ea">associated code diff</a>.
+This change is available in the nightly builds of Chef, but we&rsquo;re using Chef in production and won&rsquo;t be
+taking on the risk of running a nightly.  So we&rsquo;ll sit here patiently in the mean time and wait for the change
+to roll out into the next release.</p>
+
+<p>So how do you manually investigate dependency conflicts with Chef?</p>
+
+<ul>
+<li><p>Attempt a Chef run and get the full cookbook listing.</p></li>
+
+<li><p>Check your local cookbook metadata.rb and write down the versions against matching cookbooks from the above list.</p></li>
+
+<li><p>For all dependencies in metadata.rb, look at their metadata.rb and write down all explicit versions, matching against the above list.</p></li>
+</ul>
+
+<p>At this point see if there are any conflicts.</p>
+
+<ul>
+<li>Look at your environment&rsquo;s <code>cookbook_versions</code> attribute. <code>knife environment show ENV -a cookbook_versions</code>.</li>
+</ul>
+
+<p>See if there are any conflicting versions here based on what you&rsquo;ve noted down in previous steps.</p>
+
+<p>That might not show versions for all of your cookbooks.  In that case Chef will try to use whatever is latest.</p>
+
+<ul>
+<li>For every <code>latest</code> version cookbook, look at it&rsquo;s <code>metadata.rb</code> and note dependencies - matching with the above list.</li>
+</ul>
+
+<p>Even still, you might not find any issues.  Unfortunately, this is the position I find myself in lately.
+I largely suspect our problems stem from our somewhat undisciplined use of Chef.
+We&rsquo;re going to look at pinning all versions in our environments.  Currently they get pinned in cookbooks and environments.
+Having multiple locations to search to resolve dependencies certainly makes things more complicated than they should be.</p>
+
+  </div>
+
+  <div id="pagination">
+    <ul>
+      
+      <li><a href="http://127.0.0.1:1234/2014/03/09/bangbangcon/">Older</a></li>
+      
+      
+      <li><a href="http://127.0.0.1:1234/2014/02/24/resetting/">Newer</a></li>
+      
+    </ul>
+  </div>
+</div>
+  </body>
+</html>
+

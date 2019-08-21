@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>emulation on GrooveStomp</title>
+    <link>http://127.0.0.1:1234/tags/emulation/</link>
+    <description>Recent content in emulation on GrooveStomp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 13 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://127.0.0.1:1234/tags/emulation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RISC-V, Go and QEMU</title>
+      <link>http://127.0.0.1:1234/2019/02/13/riscv-go-qemu/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2019/02/13/riscv-go-qemu/</guid>
+      <description>I finally took the opportunity to jump back into RISC-V, Go and QEMU as a followup to my previous exploration.1
+I had a difficult time understanding exactly what was required to run my compiled Go program in QEMU. Let&amp;rsquo;s take a look at the instructions.2
+ Compile and run in qemu-riscv64 (which is expected to be in PATH):
+$ GOARCH=riscv GOOS=linux go run ../riscvtest/add.go  Build:
+$ GOARCH=riscv GOOS=linux go build .</description>
+    </item>
+    
+    <item>
+      <title>qemu and RISC-V</title>
+      <link>http://127.0.0.1:1234/2018/12/07/qemu-riscv/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1234/2018/12/07/qemu-riscv/</guid>
+      <description>It&amp;rsquo;s been a long time since I&amp;rsquo;ve posted here. So what&amp;rsquo;s up?
+I&amp;rsquo;ve been working at Lendesk in a team lead / senior developer role and trying to pursue my interest in Go and Linux. This has been a very tricky path to navigate as work has abandoned any pretense of plans to adopt Go and all work machines are MacOS. Thankfully, I&amp;rsquo;ve been able to carve out some personal time to keep poking around in my area of interest.</description>
+    </item>
+    
+  </channel>
+</rss>

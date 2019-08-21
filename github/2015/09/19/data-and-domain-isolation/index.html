@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GrooveStomp</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  </head>
+  <body>
+    <div id="navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/tags">Post Tags</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/index.xml">Rss</a></li>
+      </ul>
+    </div>
+
+<div id="content-container">
+  <div class="post">
+    <div class="float-container">
+      <h1>Data and Domain Isolation</h1>
+      <span class="date">2015-09-19</span>
+    </div>
+    
+
+<p>Today I present some scattered thoughts on organizing data and logic in programs.</p>
+
+<p>I&rsquo;m starting with MVC because it&rsquo;s pervasive and well understood.  As a pattern for wrangling complexity, it&rsquo;s solid because it&rsquo;s so simple: organize your program into three main components and that&rsquo;s how you deal with complexity.  As a bonus, the file organization of your program can just follow the pattern and use three folders.  This simplicity makes it easy for new teammates to understand what&rsquo;s going on.  Because it&rsquo;s so simple, however, MVC has some limitations you encounter pretty quickly.  In the Ruby on Rails community they&rsquo;ve come up with Service Objects.  This is really a modification of MVC to what I&rsquo;ll call MVCS.  Instead of three layers, you now get four.  Inevitably MVC winds up stacking a bunch of logic into either the controller layer, or the model layer.  MVCS adds Service Objects as a new layer intended solely to house application logic. In my experience, this additional layer works pretty well in practice.  While it&rsquo;s a simplistic bandaid to the also-simplistic MVC pattern, it does improve understandability in the programs that I&rsquo;ve used it with.</p>
+
+<p>Let&rsquo;s talk about data.  Oragizing and modelling data is almost a non-issue in Rails applications, because everybody just uses ActiveRecord and puts all models into the <em>models/</em> directory.  That&rsquo;s it; everything lives happily together in a monolithic codebase.  No problem.  But what about <em>&ldquo;microservices&rdquo;</em>?  By <em>microservices</em>, I simply mean a collection of applications (usually smaller, though not necessarily <em>&ldquo;micro&rdquo;</em> as the name implies) that communicate with each other in place of a single, larger, tightly coupled application.</p>
+
+<p>I am not at all an expert on microservices, but I have some experience working with them.  I&rsquo;ve read almost no literature on the topic, so my perspective is most likely naive in that regard.  Before I start talking about data, I will preface that there are many ways to decompose programs into microservices and I&rsquo;ve only had experience with one particular direction - decomposing based on application domain.  Follow me on a detour now, while I set up a sample program that we&rsquo;ll talk about in terms of microservices.</p>
+
+<h3 id="the-detour">The Detour</h3>
+
+<p>Let&rsquo;s use a hypothetical music application as an example.  Let&rsquo;s say our application will allow the user to rip CDs, to purchase music from an online source, to upload music, to search for music and it will also provide a recommenation engine.  If we were going to decompose based on domain, we might end up with separate applications for each of:</p>
+
+<ul>
+<li>Ripping music from a physical CD and converting to a specified format, then storing to disk.</li>
+<li>Uploading music from local disk to a remote disk.</li>
+<li>Updating a user account (with purchase history) and downloading a remotely stored music file to local disk.</li>
+<li>To forward search queries to a remote source and filter the responses and present them back to the user.</li>
+<li>Periodically searching for artists, albums and labels that seem to &ldquo;match&rdquo; the user&rsquo;s interests</li>
+</ul>
+
+<p>Most likely, such an application would have a single front-end interface to present to the end-user.
+This is a great starting point.  It seems like we&rsquo;ve got some separate domains that are well defined, based on specific functionality.  What implications does this division put on our data model?  Here are some thoughts that come to mind:</p>
+
+<ul>
+<li>We need some concept of a user.</li>
+<li>We need some concept of purchase history.</li>
+<li>We have local storage.</li>
+<li>We have remote storage.</li>
+<li>We have a remote <em>source</em> of information.</li>
+<li>We have a process that runs periodically which performs some analysis on the user&rsquo;s information and performs searches on the remote source.</li>
+</ul>
+
+<p>And some questions that come out of those:</p>
+
+<ul>
+<li>Do we tie purchase history directly to a user?</li>
+<li>Do we tie remote storage directly to a user?</li>
+<li>Do we allow saving search history?</li>
+<li>Do we allow saving search filters?</li>
+<li>Do we need the concept of an account?</li>
+</ul>
+
+<p>How do we organize our data across these applications?  Purchasing music requires access to user purchase history. Recommending music requires access to the user&rsquo;s existing music collection, which may or may not consist entirely of their purchase history, but probably also would like access to search history and uploads.  Purchasing music should probably take into account music that&rsquo;s already been uploaded by the user.  We should allow the user to download music multiple times and to different machines.</p>
+
+<h3 id="end-detour">End Detour</h3>
+
+<p>There are two main methods I can visualize for organizing our data.  <strong>Option 1</strong>: Each application can have all of its data local to itself, in an isolated database.  This is optimal for keeping services independent from each other, but incurs costs in terms of replicating data and dealing with stale data.  <strong>Option 2:</strong> We can share all data in a universal database and have each application just grab whatever is needed.  This is great for data normalization and accuracy. If there is complex business logic associated with reading and writing data, though, and that business logic lives outside of the database itself, then we run the risk of misusing the data, or of duplicating business logic across multiple applications.  There are many hybrid approaches that optimize for different needs.  You can have isolated databases that replicate to and from a universal master.  You can have services be restricted to only access data they need.  You can share business logic as library code.  You can even do this latter form in multiple ways that approach language-agnosticism.  It&rsquo;s important to keep in mind that with all of these decisions we&rsquo;re not necessarily reducing complexity, but we&rsquo;re trying to isolate it and improve any of: runtime cost, memory cost, development cost, data archival accuracy or any number of other factors.  Any such decision is always going to be simpler if all the requirements are laid out clearly and prioritized.  This is a situation where it&rsquo;s particularly important not to engage in <a href="http://www.joelonsoftware.com/articles/fog0000000018.html">architecture astronautism</a> and focus on the constraints that are known, as decisions made here can have unforseen long-term effects that may be difficult to address.</p>
+
+<p>Next time I want to start talking about application communication in a microservice architecture.  Data organization and models can have a large impact on long-term costs associated with developing and maintaining a project.  Decisions about application communication can amplify those costs (or savings).</p>
+
+  </div>
+
+  <div id="pagination">
+    <ul>
+      
+      <li><a href="http://127.0.0.1:1234/2015/10/19/pc-gaming/">Older</a></li>
+      
+      
+      <li><a href="http://127.0.0.1:1234/2015/09/16/balancing-development-considerations/">Newer</a></li>
+      
+    </ul>
+  </div>
+</div>
+  </body>
+</html>
+
