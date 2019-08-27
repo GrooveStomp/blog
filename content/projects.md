@@ -8,7 +8,6 @@ type: page
 - [3D Software Renderer](https://github.com/GrooveStomp/3dsw)<br/>
   This is my latest realtime 3D software renderer, based off of the work done by [OneLoneCoder / javidx9](https://onelonecoder.com/).
   It's not an exact copy as it's written in C11 instead of C++11.
-  This is still very much a work in progress.<br/>
   I have written a few software renderers, now:<br/>
   - [Tiny Renderer](https://github.com/GrooveStomp/tiny-renderer)<br/>
     An offline renderer I wrote in Go, partially to learn Go, based off the project of the same name, linked in the repo.
