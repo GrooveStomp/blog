@@ -1,4 +1,4 @@
 [submodule "github"]
 	path = github
-	url = git@github.com:GrooveStomp/groovestomp.github.io.git
+	url = git@github.com-groovestomp:GrooveStomp/groovestomp.github.io.git
 	branch = master

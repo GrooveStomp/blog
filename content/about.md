@@ -25,8 +25,8 @@ I am inspired by [The Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philos
 
 ## Resume
 
-- [Generic Cover Letter](/generic_cover_letter_2018-12.pdf) (Dec. 2018)
-- [Resume](/resume_2018-12.pdf) (Dec. 2018)
+- [Generic Cover Letter](/generic_cover_letter_2018-12.pdf) (December 2018)
+- [Resume](/resume_2019-08.pdf) (August 2019)
 
 ## Professional Summary
 
