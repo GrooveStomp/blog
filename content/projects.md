@@ -16,6 +16,11 @@ type: page
   - [Raytracer](https://github.com/GrooveStomp/raytracer/tree/master/in_one_weekend)<br/>
     An offline implementation based off of the book mentioned in the repo.
 
+- [GameBoy Emulator](https://github.com/GrooveStomp/gsgb)<br/>
+  A Nintendo GameBoy emulator I am in the process of writing.<br/>
+  This is under <b>heavy</b> revision at the moment as I work towards a functioning emulator.<br/>
+  This project is written in C++11 instead of C as an effort to familiarize myself with modern C++.  I haven't used C++ seriously since 2010.
+
 - [C Parser](https://github.com/GrooveStomp/cparser)<br/>
   HandmadeHero and The Jeff and Casey Show motivated me to start exploring
   making my own language and development tools.  This is the first bit of that
