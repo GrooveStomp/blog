@@ -2,8 +2,11 @@
 title: Projects
 type: page
 ---
+- [NES Emulator](https://github.com/GrooveStomp/gsnes)<br/>
+  NES Emulator written in C11.
+
 - [CHIP-8 Emulator](https://groovestomp.github.io/chip8/html/index.html)<br/>
-  A basic CHIP-8 emulator with a built in graphical debugger, written in C11.
+  A basic CHIP-8 emulator written from scratch with a built in graphical debugger, written in C11.
 
 - [3D Software Renderer](https://github.com/GrooveStomp/3dsw)<br/>
   This is my latest realtime 3D software renderer, based off of the work done by [OneLoneCoder / javidx9](https://onelonecoder.com/).
@@ -18,8 +21,8 @@ type: page
 
 - [GameBoy Emulator](https://github.com/GrooveStomp/gsgb)<br/>
   A Nintendo GameBoy emulator I am in the process of writing.<br/>
-  This is under <b>heavy</b> revision at the moment as I work towards a functioning emulator.<br/>
-  This project is written in C++11 instead of C as an effort to familiarize myself with modern C++.  I haven't used C++ seriously since 2010.
+  Temporarily on hold.<br/>
+  Started in C++11, but will be re-written in Zig.
 
 - [C Parser](https://github.com/GrooveStomp/cparser)<br/>
   HandmadeHero and The Jeff and Casey Show motivated me to start exploring

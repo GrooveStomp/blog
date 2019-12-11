@@ -3,14 +3,23 @@ title: About
 type: page
 ---
 
-My name is Aaron Oman and I am a senior software developer specializing in backend development for cloud-native applications.
-I've been using Ruby as my primary language for the last 10 years, but I actively practice C and Go as well.
+My name is Aaron Oman and I am a senior software developer specializing in
+backend development for cloud-native applications.  I've been using Ruby as my
+primary language for the last 10 years, but I actively practice C and Go as
+well.
 
-I program for fun, splitting my limited personal time between weightlifting and [personal projects](/projects/).
+I program for fun, splitting my limited personal time between weightlifting and
+[personal projects](/projects/).
 
-I entered the industry due to my enthusiasm for computer games and 3d graphics.  My current interests lean towards Golang for cloud applications and tools, and C for everything else.  I am interested in learning C++11 to further my career in low-level development.
+I entered the industry due to my enthusiasm for computer games and 3d graphics.
+I work as a backend cloud engineer, primarily in Ruby and Go.  For personal
+projecs I leverage C and Zig.
 
-I have a strong personal interest in libre hardware and software, privacy and security.  I am a big fan of [Purism](https://puri.sm/why-purism/) and [System76](https://blog.system76.com/post/179592732883/system76-on-us-manufacturing-and-open-hardware) for how they are working towards more openness. I am very interested in [RISC-V](https://riscv.org/why-risc-v/).
+I have a strong personal interest in libre hardware and software, privacy and
+security.  I am a big fan of [Purism](https://puri.sm/why-purism/) and
+[System76](https://blog.system76.com/post/179592732883/system76-on-us-manufacturing-and-open-hardware)
+for how they are working towards more openness. I am very interested in
+[RISC-V](https://riscv.org/why-risc-v/).
 
 I am inspired by [The Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) and am heavily influenced by
 [Casey Muratori](https://caseymuratori.com/blog_0015).  I have found [Brian Will](https://www.youtube.com/watch?v=QM1iUe6IofM&t=27s)'s videos to reflect well on my own thinking.  Given infinite time, I would dive into [Plan9](https://9p.io/plan9/about.html) and live there instead of Linux or BSD.
