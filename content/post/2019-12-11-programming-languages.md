@@ -1,6 +1,6 @@
 ---
 date: 2019-12-11
-url: /2019/12/11/zig-oding-choosing-new-language/
+url: /2019/12/11/zig-odin-choosing-new-language/
 title: "Zig, Odin and Choosing a New Language"
 tags: [programming, c-lang, zig-lang, odin-lang]
 ---
