@@ -93,7 +93,7 @@ implementation details of a given datatype while providing an interface for
 interacting with it.  Furthermore, we can strictly limit the number of included
 headers in our own header files because we just forward declare any datatypes we
 need.  I make one exception for this rule and allow inclusion of stdint.h for
-better precission numerical datatypes.
+better precision numerical datatypes.
 
 This approach keeps compilation relatively fast - a common problem with C++
 code.

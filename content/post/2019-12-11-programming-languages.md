@@ -88,7 +88,7 @@ Zig has a robust [build system](https://ziglang.org/#Zig-Build-System).
 
 Zig can be considered to be [a better C compiler than C](https://ziglang.org/#Zig-ships-with-libc).
 
-Zig has robus support for [cross compilation](https://ziglang.org/#Cross-compiling-is-a-first-class-use-case).
+Zig has robust support for [cross compilation](https://ziglang.org/#Cross-compiling-is-a-first-class-use-case).
 
 Honestly, the tooling support and platform support for Zig is what completely
 sold me on the language.

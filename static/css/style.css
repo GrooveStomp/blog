@@ -2,12 +2,6 @@ html {
     font-family: 'Source Sans Pro', 'Geneva', 'Roboto', 'Liberation Sans', 'MS Sans Serif';
 }
 
-@media only screen and (max-width: 1000px) {
-    html {
-        font-size: 200%;
-    }
-}
-
 a, a:visited, a:hover {
     color: #007bff;
     text-decoration: none;
@@ -91,8 +85,24 @@ table tr:nth-child(even) {
     background-color: #efefef;
 }
 
-
 table td, table th {
     padding: 1rem;
     border-bottom: 1px solid black;
+}
+
+blockquote, code, pre {
+    background-color: #efefef;
+}
+
+@media only screen and (max-width: 1000px) {
+    h1 {
+        font-size: 150%;
+    }
+    html {
+        font-size: 200%;
+    }
+    body {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
