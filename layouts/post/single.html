@@ -1,10 +1,8 @@
 {{ partial "header.html" . }}
 <div id="content-container">
   <div class="post">
-    <div class="float-container">
-      <h1>{{ .Title }}</h1>
-      <span class="date">{{ dateFormat "2006-01-02" .Date }}</span>
-    </div>
+    <h1>{{ .Title }}</h1>
+    <div class="date">{{ dateFormat "2006-01-02" .Date }}</div>
     {{ .Content }}
   </div>
 

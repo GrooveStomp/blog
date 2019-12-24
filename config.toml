@@ -13,3 +13,11 @@ series = "series"
 [pagination]
 Paginate = 10
 PaginatePath = "page"
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+    guessSyntax = false
+    lineNos = false
+  [markup.goldmark.renderer]
+    unsafe = true
