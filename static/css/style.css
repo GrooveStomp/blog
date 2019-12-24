@@ -95,6 +95,11 @@ pre {
     padding: 0.5rem;
 }
 
+.scroll-container {n
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
 @media only screen and (max-width: 1000px) {
     h1 {
         font-size: 150%;
