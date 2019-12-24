@@ -13,7 +13,7 @@ I program for fun, splitting my limited personal time between weightlifting and
 
 I entered the industry due to my enthusiasm for computer games and 3d graphics.
 I work as a backend cloud engineer, primarily in Ruby and Go.  For personal
-projecs I leverage C and Zig.
+projecs I leverage C and am looking to use Zig and Odin.
 
 I have a strong personal interest in libre hardware and software, privacy and
 security.  I am a big fan of [Purism](https://puri.sm/why-purism/) and
@@ -53,6 +53,8 @@ I am inspired by [The Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philos
 
 | Date | Accomplishment / Event |
 |------|----------------|
+| 2019 | Started programming in Zig and Odin |
+| 2019 | Wrote CHIP-8 and NES emulators |
 | 2019 | Returned to Mogo |
 | 2019 | Stepped back into an IC role |
 | 2018 | Promoted to Team Lead at Lendesk |

@@ -47,17 +47,6 @@ body {
     border-top: 2px solid #007bff;
 }
 
-.float-container:after {
-    display: block;
-    content: '';
-    clear: both;
-}
-
-.float-container h1 {
-    display: block;
-    float: left;
-}
-
 #content-container .post .date {
     font-style: italic;
     color: #888;

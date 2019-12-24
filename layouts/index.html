@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <div id="content-container">
   {{ $paginator := (.Paginate (where .Site.Pages "Type" "post")) }}
-  {{ range $paginator.Pages }}
+  {{ range where $paginator.Pages "Kind" "page" }}
   <div class="post">
     <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
     <div class="date">{{ dateFormat "2006-01-02" .Date }}</div>

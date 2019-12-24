@@ -22,7 +22,7 @@ type: page
 - [GameBoy Emulator](https://github.com/GrooveStomp/gsgb)<br/>
   A Nintendo GameBoy emulator I am in the process of writing.<br/>
   Temporarily on hold.<br/>
-  Started in C++11, but will be re-written in Zig.
+  Started in C++11, but will be re-written in Zig and/or Odin.
 
 - [C Parser](https://github.com/GrooveStomp/cparser)<br/>
   HandmadeHero and The Jeff and Casey Show motivated me to start exploring
