@@ -5,7 +5,7 @@ title: "Odin Lang Networking"
 tags: [programming, c-lang, odin-lang, sockets, http, networking]
 ---
 
-In today post I want to explore Odin's C FFI.
+In today's post I want to explore Odin's C FFI.
 
 As of today, Odin does not have a core networking library; something I consider to be an impediment to productivity.
 

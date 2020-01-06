@@ -1,5 +1,5 @@
 html {
-    font-family: 'Source Sans Pro', 'Geneva', 'Roboto', 'Liberation Sans', 'MS Sans Serif';
+    font-family: Sans-Serif;
 }
 
 a, a:visited, a:hover {
@@ -27,7 +27,7 @@ body {
 }
 
 #navigation ul li, #pagination ul li {
-    padding-right: 1rem;
+    padding-right: 1rem;<
     padding-left: 1rem;
     display: inline;
     border-right: 1px solid #888;
