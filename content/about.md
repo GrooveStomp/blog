@@ -41,16 +41,64 @@ I am inspired by [The Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philos
 
 <div class="scroll-container">
 
-|Company         |Duration              |Title                    |Responsibilities|Languages and Technologies|
-|----------------|----------------------|-------------------------|----------------|--------------------------|
-|Mogo            |July 2019 - Present   |Senior Software Developer|Application development, tools and infrastructure.|Go, Ruby, RabbitMQ, MySQL, AWS|
-|Lendesk         |2 Years               |Senior Software Developer|Application development and tools.|Elixir, Go, NodeJS, PostgreSQL, Redis, Ruby on Rails, AWS|
-|Lendesk         |9 months              |Team Lead                |1:1s, sprint planning, ticket grooming, team management, cross-team coordination, code reviews, hiring interviews, process improvement, bug fixes, addressing technical debt, improve system architecture.|Elixir, Go, NodeJS, PostgreSQL, Redis, Ruby on Rails, AWS|
-|Mogo            |2.8 Years             |Senior Software Developer|Application development, tools and infrastructure.|Go, Ruby, RabbitMQ, MySQL, AWS|
-|Unbounce        |3.5 Years             |API Lead                 |Design, implement and support HTTP API. Integrations with 3rd parties.|Java, Javascript, MySQL, Ruby on Rails, AWS|
-|Gossamer Threads|2.5 Years             |Programmer               |In-house forum and website software customizations for clients.|MySQL, Perl, PHP|
-|Electronic Arts |3.5 Years             |Software Engineer        |3d pipeline maintenance, gameplay prototyping, audio programming, animation programming, front-end programming.|ActionScript, C++, C#, Maya|
-
+  <table>
+    <tr>
+      <th>Company</th>
+      <th>Duration</th>
+      <th>Title</th>
+      <th>Responsibilities</th>
+      <th>Languages and Technologies</th>
+    </tr>
+    <tr>
+      <td>Mogo</td>
+      <td>July 2019 - Present</td>
+      <td>Senior Software Developer</td>
+      <td>Application development, tools and infrastructure.</td>
+      <td>Go, Ruby, RabbitMQ, MySQL, AWS</td>
+    </tr>
+    <tr>
+      <td>Lendesk</td>
+      <td>2 Years</td>
+      <td>Senior Software Developer</td>
+      <td>Application development and tools.</td>
+      <td>Elixir, Go, NodeJS, PostgreSQL, Redis, Ruby on Rails, AWS</td>
+    </tr>
+    <tr>
+      <td>Lendesk</td>
+      <td>9 months</td>
+      <td>Team Lead</td>
+      <td>1:1s, sprint planning, ticket grooming, team management, cross-team coordination, code reviews, hiring interviews, process improvement, bug fixes, addressing technical debt, improve system architecture.</td>
+      <td>Elixir, Go, NodeJS, PostgreSQL, Redis, Ruby on Rails, AWS</td>
+    </tr>
+    <tr>
+      <td>Mogo</td>
+      <td>2.8 Years</td>
+      <td>Senior Software Developer</td>
+      <td>Application development, tools and infrastructure.</td>
+      <td>Go, Ruby, RabbitMQ, MySQL, AWS</td>
+    </tr>
+    <tr>
+      <td>Unbounce</td>
+      <td>3.5 Years</td>
+      <td>API Lead</td>
+      <td>Design, implement and support HTTP API. Integrations with 3rd parties.</td>
+      <td>Java, Javascript, MySQL, Ruby on Rails, AWS</td>
+    </tr>
+    <tr>
+      <td>Gossamer Threads</td>
+      <td>2.5 Years</td>
+      <td>Programmer</td>
+      <td>In-house forum and website software customizations for clients.</td>
+      <td>MySQL, Perl, PHP</td>
+    </tr>
+    <tr>
+      <td>Electronic Arts </td>
+      <td>3.5 Years</td>
+      <td>Software Engineer</td>
+      <td>3d pipeline maintenance, gameplay prototyping, audio programming, animation programming, front-end programming.</td>
+      <td>ActionScript, C++, C#, Maya</td>
+    </tr>
+  </table>
 </div>
 
 <br/>
