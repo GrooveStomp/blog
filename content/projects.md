@@ -2,6 +2,11 @@
 title: Projects
 type: page
 ---
+- [CHIP-8 Emulator (Zig)](https://github.com/GrooveStomp/chip8-zig)<br/>
+  A basic CHIP-8 emulator written from scratch in Zig.<br/>
+  This is a complete rewrite of the CHIP-8 emulator below that I wrote in C11,
+  benefitting from lessons learned writing a NES emulator in C11.
+
 - [NES Emulator](https://github.com/GrooveStomp/gsnes)<br/>
   NES Emulator written in C11.
 
