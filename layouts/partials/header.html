@@ -3,6 +3,7 @@
   <head>
     <title>{{ .Site.Title }}</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    {{ if eq .Kind "page" }}<link rel="canonical" href="{{ .Permalink }}">{{ end }}
   </head>
   <body>
     <div id="navigation">
@@ -10,7 +11,7 @@
         <li{{ if eq .Title "GrooveStomp" }} class="active"{{ end }}><a href="/">Home</a></li>
         <li{{ if eq .Title "Tags" }} class="active"{{ end }}><a href="/tags">Post Tags</a></li>
         <li{{ if eq .Title "Projects" }} class="active"{{ end }}><a href="/projects">Projects</a></li>
-        <li{{ if eq .Title "About" }} class="active"{{end }}><a href="/about">About</a></li>
+        <li{{ if eq .Title "About" }} class="active"{{ end }}><a href="/about">About</a></li>
         <li><a href="/post/index.xml">Rss</a></li>
       </ul>
     </div>
