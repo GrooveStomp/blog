@@ -39,14 +39,14 @@ I am inspired by [The Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philos
     <tr>
       <th>Company</th>
       <th>Duration</th>
-      <th>Title</th>
+      <th>Role</th>
       <th>Responsibilities</th>
       <th>Languages and Technologies</th>
     </tr>
     <tr>
       <td>Commit</td>
       <td>August 2020 - Present</td>
-      <td>Senior Software Developer</td>
+      <td>Devops Tooling / Software Developer</td>
       <td>Infrastructure and tools development.</td>
       <td>Go, Bash, AWS, Kubernetes, Docker, Terraform</td>
     </tr>
@@ -106,7 +106,7 @@ I am inspired by [The Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philos
 
 | Date | Accomplishment / Event |
 |------|----------------|
-| 2020 | Joined Commit as a senior software developer (Go, Docker, Kubernetes, Terraform) |
+| 2020 | Joined Commit (Go, Docker, Kubernetes, Terraform) |
 | 2019 | Started programming in Zig and Odin |
 | 2019 | Wrote CHIP-8 and NES emulators |
 | 2019 | Returned to Mogo |
