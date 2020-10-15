@@ -1,0 +1,60 @@
+groovestomp
+Aaron Oman
+Software developer. C, Go, Zig. Retro computing, outdoors, family, fitness.
+Vancouver, BC
+==================================================================
+https://keybase.io/groovestomp
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.groovestomp.com
+  * I am groovestomp (https://keybase.io/groovestomp) on keybase.
+  * I have a public key ASBGGHrhUEabXbRQ7yRyDuN0F2AW2X0raYhnM4T3Q2AwAgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012046187ae150469b5db450ef24720ee374176016d97d2b6988673384f7436030020a",
+      "host": "keybase.io",
+      "kid": "012046187ae150469b5db450ef24720ee374176016d97d2b6988673384f7436030020a",
+      "uid": "a6f8bc12b80df182736c8304545f7800",
+      "username": "groovestomp"
+    },
+    "merkle_root": {
+      "ctime": 1602796632,
+      "hash": "9d6a453d8b8264a9a03a68daf7d4a93a7fa69326e6d01f07eea745f267c3d0c41647ee5fd6b5caa7f0443043840b475cb3e043505958a4cdde3fe79cbb97c8e7",
+      "hash_meta": "c77a5dcf2fa9e5f54bf897b6dfab1520f754dab12a5117f956804dd3ae54c49a",
+      "seqno": 17838288
+    },
+    "service": {
+      "entropy": "UXksjbmlsPDSqRvpV9VjgzlN",
+      "hostname": "www.groovestomp.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.1"
+  },
+  "ctime": 1602796685,
+  "expire_in": 504576000,
+  "prev": "cfd755c9af76db3a4ddb1aaadada6756d9ccbd8747d4ff971ef2de4a432de0e8",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRhh64VBGm120UO8kcg7jdBdgFtl9K2mIZzOE90NgMAIKp3BheWxvYWTESpcCCMQgz9dVya922zpN2xqq2tpnVtnMvYdH1P+XHvLeSkMt4OjEIMlwoOiGrY1GF01uX16BkZfqfXRe/ODyiLPeQ41KOr2fAgHCo3NpZ8RAmgiN8KvneBlNTT6Vl1gVDeES8eOcmUN7/0EdujCxdiUqWIlodxd6jAIwmq2OJCrUmm12lbWH1OapuY80MabWAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIH70+0LvBco+ezjKsGGQIuPfJYiW/61ms+9+w4I63Peho3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/groovestomp
+
+==================================================================
