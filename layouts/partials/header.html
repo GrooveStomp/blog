@@ -8,10 +8,9 @@
   <body>
     <div id="navigation">
       <ul>
-        <li{{ if eq .Title "GrooveStomp" }} class="active"{{ end }}><a href="/">/home</a></li>
+        <li><a href="http://home.groovestomp.com">/home</a></li>
+        <li class="active"><a href="/">/blog</a></li>
         <li{{ if eq .Title "Tags" }} class="active"{{ end }}><a href="/tags">/post_tags</a></li>
-        <li{{ if eq .Title "Projects" }} class="active"{{ end }}><a href="/projects">/projects</a></li>
-        <li{{ if eq .Title "About" }} class="active"{{ end }}><a href="/about">/about</a></li>
         <li><a href="/post/index.xml">/rss</a></li>
       </ul>
     </div>
