@@ -16,12 +16,21 @@ hugo server
 Then point a web browser at http://localhost:1313
 
 # Deploying
-There's a deploy script taken from [here](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
-```
-./deploy.sh
-```
-Before running this, [the published blog repository](https://github.com/GrooveStomp/groovestomp.github.io) should be checked out as a git submodule:
-```
-git submodule add -b master git@github.com:GrooveStomp/groovestomp.github.io.git github
-```
-The deploy script will output the static site to `./github/`, which is the submodule for the published site; it then pushes to master for that repo, publishing the site.
+There are two deploy scripts, both modified from [here](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
+
+One is for SourceHut, and the other is for GitHub.
+The GitHub one is legacy, for the old www.groovestomp.com domain where the blog *was* the site.
+
+## Setup
+The target github repository for the published content should first be cloned as a git submodule.
+
+    git submodule add -b master <repository> <name>
+
+`<name>` should be either "sourcehut" or "github" as per the `deploy-<name>.sh` script.
+
+## Execute
+Actual deployment is then just `./deploy-<name>.sh`.
+For GitHub this publishes automatically if you point your domain to <name>.github.io.
+
+For SourceHut this doesn't exist and I have it configured differently anyway.
+Just pull the published repo on the server.
